@@ -1,0 +1,1341 @@
+GPU detected: NVIDIA H200 (Compute Capability 9.0)
+CUDA Runtime Version: 12.8.0
+CUDA Driver Version: 13.0.0
+cuBLAS Version: 12.8.3
+cuSOLVER Version: 11.7.2
+Message: Post-HF method is not selected.
+[INT1E] One electron integrals are computed using the Hybrid method.
+[[32m00:00.000[0m] START: compute_nuclear_repulsion_energy
+[[32m00:00.000[0m] END:   compute_nuclear_repulsion_energy after 0.071 ms
+[[32m00:00.000[0m] START: compute_core_hamiltonian_matrix
+[[32m00:00.037[0m] END:   compute_core_hamiltonian_matrix after 37.107 ms
+[[32m00:00.037[0m] START: precompute_eri_matrix
+[[32m00:00.098[0m] END:   precompute_eri_matrix after 61.253 ms
+[[32m00:00.098[0m] START: compute_transform_matrix
+Overlap spectrum: min = 1.645e-02, max = 6.273e+00, cond = 3.814e+02
+[[32m00:00.372[0m] END:   compute_transform_matrix after 273.72 ms
+[[32m00:00.372[0m] START: guess_initial_fock_matrix
+[[32m00:00.378[0m] START: compute_density_matrix
+[[32m00:00.378[0m] END:   compute_density_matrix after 0.114 ms
+[[32m00:00.378[0m] START: compute_fock_matrix
+[[32m00:01.993[0m] END:   compute_fock_matrix after 1614.8 ms
+[[32m00:01.993[0m] END:   guess_initial_fock_matrix after 1621 ms
+[[31m00:01.993[0m] SCF Iteration 0
+[[32m00:01.993[0m] START: compute_coefficient_matrix_impl
+[[32m00:01.998[0m] END:   compute_coefficient_matrix_impl after 5.531 ms
+[[32m00:01.998[0m] START: compute_density_matrix
+[[32m00:01.998[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:01.998[0m] START: compute_fock_matrix
+[[32m00:03.581[0m] END:   compute_fock_matrix after 1583 ms
+[[32m00:03.581[0m] START: compute_energy
+[[32m00:03.582[0m] END:   compute_energy after 0.642 ms
+---- Iteration: 0 ----  Energy: -2779.7386605238617 Total energy: -496.8530643639092 
+[[32m00:03.582[0m] START: update_fock_matrix
+[[32m00:03.583[0m] END:   update_fock_matrix after 0.61 ms
+[[31m00:03.583[0m] SCF Iteration 1
+[[32m00:03.583[0m] START: compute_coefficient_matrix_impl
+[[32m00:03.588[0m] END:   compute_coefficient_matrix_impl after 5.301 ms
+[[32m00:03.588[0m] START: compute_density_matrix
+[[32m00:03.588[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:03.588[0m] START: compute_fock_matrix
+[[32m00:05.172[0m] END:   compute_fock_matrix after 1584.2 ms
+[[32m00:05.172[0m] START: compute_energy
+[[32m00:05.172[0m] END:   compute_energy after 0.062 ms
+---- Iteration: 1 ----  Energy: -2663.2698126233731 Total energy: -380.38421646342067 Energy difference: 116.4688479 
+[[32m00:05.172[0m] START: update_fock_matrix
+[[32m00:05.196[0m] END:   update_fock_matrix after 23.434 ms
+[[31m00:05.196[0m] SCF Iteration 2
+[[32m00:05.196[0m] START: compute_coefficient_matrix_impl
+[[32m00:05.203[0m] END:   compute_coefficient_matrix_impl after 7.388 ms
+[[32m00:05.203[0m] START: compute_density_matrix
+[[32m00:05.203[0m] END:   compute_density_matrix after 0.074 ms
+[[32m00:05.203[0m] START: compute_fock_matrix
+[[32m00:06.786[0m] END:   compute_fock_matrix after 1583 ms
+[[32m00:06.786[0m] START: compute_energy
+[[32m00:06.786[0m] END:   compute_energy after 0.082 ms
+---- Iteration: 2 ----  Energy: -3374.1510330190122 Total energy: -1091.2654368590597 Energy difference: 710.8812204 
+[[32m00:06.786[0m] START: update_fock_matrix
+[[32m00:06.788[0m] END:   update_fock_matrix after 1.827 ms
+[[31m00:06.788[0m] SCF Iteration 3
+[[32m00:06.788[0m] START: compute_coefficient_matrix_impl
+[[32m00:06.794[0m] END:   compute_coefficient_matrix_impl after 5.241 ms
+[[32m00:06.794[0m] START: compute_density_matrix
+[[32m00:06.794[0m] END:   compute_density_matrix after 0.077 ms
+[[32m00:06.794[0m] START: compute_fock_matrix
+[[32m00:08.374[0m] END:   compute_fock_matrix after 1580.7 ms
+[[32m00:08.374[0m] START: compute_energy
+[[32m00:08.374[0m] END:   compute_energy after 0.071 ms
+---- Iteration: 3 ----  Energy: -3603.6846368318425 Total energy: -1320.79904067189 Energy difference: 229.5336038 
+[[32m00:08.374[0m] START: update_fock_matrix
+[[32m00:08.378[0m] END:   update_fock_matrix after 3.469 ms
+[[31m00:08.378[0m] SCF Iteration 4
+[[32m00:08.378[0m] START: compute_coefficient_matrix_impl
+[[32m00:08.383[0m] END:   compute_coefficient_matrix_impl after 5.269 ms
+[[32m00:08.383[0m] START: compute_density_matrix
+[[32m00:08.383[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:08.383[0m] START: compute_fock_matrix
+[[32m00:09.966[0m] END:   compute_fock_matrix after 1582.9 ms
+[[32m00:09.966[0m] START: compute_energy
+[[32m00:09.966[0m] END:   compute_energy after 0.061 ms
+---- Iteration: 4 ----  Energy: -3358.5261203210207 Total energy: -1075.6405241610682 Energy difference: 245.1585165 
+[[32m00:09.966[0m] START: update_fock_matrix
+[[32m00:09.968[0m] END:   update_fock_matrix after 1.82 ms
+[[31m00:09.968[0m] SCF Iteration 5
+[[32m00:09.968[0m] START: compute_coefficient_matrix_impl
+[[32m00:09.973[0m] END:   compute_coefficient_matrix_impl after 5.242 ms
+[[32m00:09.973[0m] START: compute_density_matrix
+[[32m00:09.973[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:09.973[0m] START: compute_fock_matrix
+[[32m00:11.552[0m] END:   compute_fock_matrix after 1578.7 ms
+[[32m00:11.552[0m] START: compute_energy
+[[32m00:11.552[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 5 ----  Energy: -3748.6815048041058 Total energy: -1465.7959086441533 Energy difference: 390.1553845 
+[[32m00:11.552[0m] START: update_fock_matrix
+[[32m00:11.554[0m] END:   update_fock_matrix after 1.787 ms
+[[31m00:11.554[0m] SCF Iteration 6
+[[32m00:11.554[0m] START: compute_coefficient_matrix_impl
+[[32m00:11.559[0m] END:   compute_coefficient_matrix_impl after 5.206 ms
+[[32m00:11.559[0m] START: compute_density_matrix
+[[32m00:11.559[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:11.559[0m] START: compute_fock_matrix
+[[32m00:13.138[0m] END:   compute_fock_matrix after 1578.5 ms
+[[32m00:13.138[0m] START: compute_energy
+[[32m00:13.138[0m] END:   compute_energy after 0.07 ms
+---- Iteration: 6 ----  Energy: -3647.1493057655011 Total energy: -1364.2637096055487 Energy difference: 101.532199 
+[[32m00:13.138[0m] START: update_fock_matrix
+[[32m00:13.140[0m] END:   update_fock_matrix after 2.172 ms
+[[31m00:13.140[0m] SCF Iteration 7
+[[32m00:13.140[0m] START: compute_coefficient_matrix_impl
+[[32m00:13.145[0m] END:   compute_coefficient_matrix_impl after 5.25 ms
+[[32m00:13.145[0m] START: compute_density_matrix
+[[32m00:13.145[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:13.145[0m] START: compute_fock_matrix
+[[32m00:14.720[0m] END:   compute_fock_matrix after 1574.4 ms
+[[32m00:14.720[0m] START: compute_energy
+[[32m00:14.720[0m] END:   compute_energy after 0.062 ms
+---- Iteration: 7 ----  Energy: -3802.1181768875222 Total energy: -1519.2325807275697 Energy difference: 154.9688711 
+[[32m00:14.720[0m] START: update_fock_matrix
+[[32m00:14.722[0m] END:   update_fock_matrix after 2.181 ms
+[[31m00:14.722[0m] SCF Iteration 8
+[[32m00:14.722[0m] START: compute_coefficient_matrix_impl
+[[32m00:14.728[0m] END:   compute_coefficient_matrix_impl after 5.529 ms
+[[32m00:14.728[0m] START: compute_density_matrix
+[[32m00:14.728[0m] END:   compute_density_matrix after 0.08 ms
+[[32m00:14.728[0m] START: compute_fock_matrix
+[[32m00:16.295[0m] END:   compute_fock_matrix after 1567 ms
+[[32m00:16.295[0m] START: compute_energy
+[[32m00:16.295[0m] END:   compute_energy after 0.072 ms
+---- Iteration: 8 ----  Energy: -3801.5816916541221 Total energy: -1518.6960954941696 Energy difference: 0.5364852334 
+[[32m00:16.295[0m] START: update_fock_matrix
+[[32m00:16.297[0m] END:   update_fock_matrix after 2.408 ms
+[[31m00:16.297[0m] SCF Iteration 9
+[[32m00:16.297[0m] START: compute_coefficient_matrix_impl
+[[32m00:16.302[0m] END:   compute_coefficient_matrix_impl after 5.25 ms
+[[32m00:16.302[0m] START: compute_density_matrix
+[[32m00:16.302[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:16.302[0m] START: compute_fock_matrix
+[[32m00:17.852[0m] END:   compute_fock_matrix after 1549.9 ms
+[[32m00:17.852[0m] START: compute_energy
+[[32m00:17.852[0m] END:   compute_energy after 0.061 ms
+---- Iteration: 9 ----  Energy: -3801.9389078021777 Total energy: -1519.0533116422253 Energy difference: 0.3572161481 
+[[32m00:17.852[0m] START: update_fock_matrix
+[[32m00:17.855[0m] END:   update_fock_matrix after 2.145 ms
+[[31m00:17.855[0m] SCF Iteration 10
+[[32m00:17.855[0m] START: compute_coefficient_matrix_impl
+[[32m00:17.860[0m] END:   compute_coefficient_matrix_impl after 5.23 ms
+[[32m00:17.860[0m] START: compute_density_matrix
+[[32m00:17.860[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:17.860[0m] START: compute_fock_matrix
+[[32m00:19.407[0m] END:   compute_fock_matrix after 1547.4 ms
+[[32m00:19.407[0m] START: compute_energy
+[[32m00:19.407[0m] END:   compute_energy after 0.055 ms
+---- Iteration: 10 ----  Energy: -3802.3566229900725 Total energy: -1519.4710268301201 Energy difference: 0.4177151879 
+[[32m00:19.407[0m] START: update_fock_matrix
+[[32m00:19.410[0m] END:   update_fock_matrix after 2.12 ms
+[[31m00:19.410[0m] SCF Iteration 11
+[[32m00:19.410[0m] START: compute_coefficient_matrix_impl
+[[32m00:19.415[0m] END:   compute_coefficient_matrix_impl after 5.225 ms
+[[32m00:19.415[0m] START: compute_density_matrix
+[[32m00:19.415[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:19.415[0m] START: compute_fock_matrix
+[[32m00:20.955[0m] END:   compute_fock_matrix after 1540.4 ms
+[[32m00:20.955[0m] START: compute_energy
+[[32m00:20.955[0m] END:   compute_energy after 0.07 ms
+---- Iteration: 11 ----  Energy: -3802.4675938732817 Total energy: -1519.5819977133292 Energy difference: 0.1109708832 
+[[32m00:20.955[0m] START: update_fock_matrix
+[[32m00:20.958[0m] END:   update_fock_matrix after 2.328 ms
+[[31m00:20.958[0m] SCF Iteration 12
+[[32m00:20.958[0m] START: compute_coefficient_matrix_impl
+[[32m00:20.963[0m] END:   compute_coefficient_matrix_impl after 5.262 ms
+[[32m00:20.963[0m] START: compute_density_matrix
+[[32m00:20.963[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:20.963[0m] START: compute_fock_matrix
+[[32m00:22.496[0m] END:   compute_fock_matrix after 1533.1 ms
+[[32m00:22.496[0m] START: compute_energy
+[[32m00:22.496[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 12 ----  Energy: -3802.5421182347691 Total energy: -1519.6565220748166 Energy difference: 0.07452436149 
+[[32m00:22.496[0m] START: update_fock_matrix
+[[32m00:22.504[0m] END:   update_fock_matrix after 8.216 ms
+[[31m00:22.504[0m] SCF Iteration 13
+[[32m00:22.504[0m] START: compute_coefficient_matrix_impl
+[[32m00:22.510[0m] END:   compute_coefficient_matrix_impl after 5.248 ms
+[[32m00:22.510[0m] START: compute_density_matrix
+[[32m00:22.510[0m] END:   compute_density_matrix after 0.073 ms
+[[32m00:22.510[0m] START: compute_fock_matrix
+[[32m00:24.049[0m] END:   compute_fock_matrix after 1539.5 ms
+[[32m00:24.049[0m] START: compute_energy
+[[32m00:24.049[0m] END:   compute_energy after 0.054 ms
+---- Iteration: 13 ----  Energy: -3802.5558893516945 Total energy: -1519.6702931917421 Energy difference: 0.01377111693 
+[[32m00:24.049[0m] START: update_fock_matrix
+[[32m00:24.051[0m] END:   update_fock_matrix after 2.105 ms
+[[31m00:24.051[0m] SCF Iteration 14
+[[32m00:24.051[0m] START: compute_coefficient_matrix_impl
+[[32m00:24.057[0m] END:   compute_coefficient_matrix_impl after 5.226 ms
+[[32m00:24.057[0m] START: compute_density_matrix
+[[32m00:24.057[0m] END:   compute_density_matrix after 0.071 ms
+[[32m00:24.057[0m] START: compute_fock_matrix
+[[32m00:25.584[0m] END:   compute_fock_matrix after 1526.7 ms
+[[32m00:25.584[0m] START: compute_energy
+[[32m00:25.584[0m] END:   compute_energy after 0.061 ms
+---- Iteration: 14 ----  Energy: -3802.5679090875901 Total energy: -1519.6823129276377 Energy difference: 0.0120197359 
+[[32m00:25.584[0m] START: update_fock_matrix
+[[32m00:25.586[0m] END:   update_fock_matrix after 2.148 ms
+[[31m00:25.586[0m] SCF Iteration 15
+[[32m00:25.586[0m] START: compute_coefficient_matrix_impl
+[[32m00:25.591[0m] END:   compute_coefficient_matrix_impl after 5.226 ms
+[[32m00:25.591[0m] START: compute_density_matrix
+[[32m00:25.591[0m] END:   compute_density_matrix after 0.097 ms
+[[32m00:25.591[0m] START: compute_fock_matrix
+[[32m00:27.111[0m] END:   compute_fock_matrix after 1520.3 ms
+[[32m00:27.111[0m] START: compute_energy
+[[32m00:27.111[0m] END:   compute_energy after 0.055 ms
+---- Iteration: 15 ----  Energy: -3802.5686137783682 Total energy: -1519.6830176184158 Energy difference: 0.0007046907781 
+[[32m00:27.111[0m] START: update_fock_matrix
+[[32m00:27.115[0m] END:   update_fock_matrix after 3.468 ms
+[[31m00:27.115[0m] SCF Iteration 16
+[[32m00:27.115[0m] START: compute_coefficient_matrix_impl
+[[32m00:27.120[0m] END:   compute_coefficient_matrix_impl after 5.243 ms
+[[32m00:27.120[0m] START: compute_density_matrix
+[[32m00:27.120[0m] END:   compute_density_matrix after 0.073 ms
+[[32m00:27.120[0m] START: compute_fock_matrix
+[[32m00:28.639[0m] END:   compute_fock_matrix after 1518.4 ms
+[[32m00:28.639[0m] START: compute_energy
+[[32m00:28.639[0m] END:   compute_energy after 0.073 ms
+---- Iteration: 16 ----  Energy: -3802.5663630692402 Total energy: -1519.6807669092877 Energy difference: 0.002250709128 
+[[32m00:28.639[0m] START: update_fock_matrix
+[[32m00:28.641[0m] END:   update_fock_matrix after 2.384 ms
+[[31m00:28.641[0m] SCF Iteration 17
+[[32m00:28.641[0m] START: compute_coefficient_matrix_impl
+[[32m00:28.646[0m] END:   compute_coefficient_matrix_impl after 5.251 ms
+[[32m00:28.646[0m] START: compute_density_matrix
+[[32m00:28.647[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:28.647[0m] START: compute_fock_matrix
+[[32m00:30.164[0m] END:   compute_fock_matrix after 1517.4 ms
+[[32m00:30.164[0m] START: compute_energy
+[[32m00:30.164[0m] END:   compute_energy after 0.055 ms
+---- Iteration: 17 ----  Energy: -3802.5628419141526 Total energy: -1519.6772457542002 Energy difference: 0.003521155088 
+[[32m00:30.164[0m] START: update_fock_matrix
+[[32m00:30.166[0m] END:   update_fock_matrix after 2.14 ms
+[[31m00:30.166[0m] SCF Iteration 18
+[[32m00:30.166[0m] START: compute_coefficient_matrix_impl
+[[32m00:30.171[0m] END:   compute_coefficient_matrix_impl after 5.226 ms
+[[32m00:30.171[0m] START: compute_density_matrix
+[[32m00:30.172[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:30.172[0m] START: compute_fock_matrix
+[[32m00:31.695[0m] END:   compute_fock_matrix after 1523.2 ms
+[[32m00:31.695[0m] START: compute_energy
+[[32m00:31.695[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 18 ----  Energy: -3802.5556814402253 Total energy: -1519.6700852802728 Energy difference: 0.007160473927 
+[[32m00:31.695[0m] START: update_fock_matrix
+[[32m00:31.697[0m] END:   update_fock_matrix after 2.116 ms
+[[31m00:31.697[0m] SCF Iteration 19
+[[32m00:31.697[0m] START: compute_coefficient_matrix_impl
+[[32m00:31.702[0m] END:   compute_coefficient_matrix_impl after 5.213 ms
+[[32m00:31.702[0m] START: compute_density_matrix
+[[32m00:31.702[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:31.702[0m] START: compute_fock_matrix
+[[32m00:33.213[0m] END:   compute_fock_matrix after 1510.8 ms
+[[32m00:33.213[0m] START: compute_energy
+[[32m00:33.213[0m] END:   compute_energy after 0.054 ms
+---- Iteration: 19 ----  Energy: -3802.5535246340796 Total energy: -1519.6679284741272 Energy difference: 0.002156806146 
+[[32m00:33.213[0m] START: update_fock_matrix
+[[32m00:33.215[0m] END:   update_fock_matrix after 2.121 ms
+[[31m00:33.215[0m] SCF Iteration 20
+[[32m00:33.215[0m] START: compute_coefficient_matrix_impl
+[[32m00:33.220[0m] END:   compute_coefficient_matrix_impl after 5.235 ms
+[[32m00:33.220[0m] START: compute_density_matrix
+[[32m00:33.220[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:33.221[0m] START: compute_fock_matrix
+[[32m00:34.734[0m] END:   compute_fock_matrix after 1513.7 ms
+[[32m00:34.734[0m] START: compute_energy
+[[32m00:34.734[0m] END:   compute_energy after 0.06 ms
+---- Iteration: 20 ----  Energy: -3802.5512951013998 Total energy: -1519.6656989414473 Energy difference: 0.00222953268 
+[[32m00:34.734[0m] START: update_fock_matrix
+[[32m00:34.738[0m] END:   update_fock_matrix after 3.501 ms
+[[31m00:34.738[0m] SCF Iteration 21
+[[32m00:34.738[0m] START: compute_coefficient_matrix_impl
+[[32m00:34.743[0m] END:   compute_coefficient_matrix_impl after 5.25 ms
+[[32m00:34.743[0m] START: compute_density_matrix
+[[32m00:34.743[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:34.743[0m] START: compute_fock_matrix
+[[32m00:36.257[0m] END:   compute_fock_matrix after 1514.1 ms
+[[32m00:36.257[0m] START: compute_energy
+[[32m00:36.257[0m] END:   compute_energy after 0.055 ms
+---- Iteration: 21 ----  Energy: -3802.5492797232255 Total energy: -1519.663683563273 Energy difference: 0.002015378174 
+[[32m00:36.257[0m] START: update_fock_matrix
+[[32m00:36.262[0m] END:   update_fock_matrix after 4.728 ms
+[[31m00:36.262[0m] SCF Iteration 22
+[[32m00:36.262[0m] START: compute_coefficient_matrix_impl
+[[32m00:36.267[0m] END:   compute_coefficient_matrix_impl after 5.266 ms
+[[32m00:36.267[0m] START: compute_density_matrix
+[[32m00:36.267[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:36.267[0m] START: compute_fock_matrix
+[[32m00:37.769[0m] END:   compute_fock_matrix after 1501.6 ms
+[[32m00:37.769[0m] START: compute_energy
+[[32m00:37.769[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 22 ----  Energy: -3802.5506356497476 Total energy: -1519.6650394897952 Energy difference: 0.001355926522 
+[[32m00:37.769[0m] START: update_fock_matrix
+[[32m00:37.771[0m] END:   update_fock_matrix after 2.099 ms
+[[31m00:37.771[0m] SCF Iteration 23
+[[32m00:37.771[0m] START: compute_coefficient_matrix_impl
+[[32m00:37.776[0m] END:   compute_coefficient_matrix_impl after 5.236 ms
+[[32m00:37.776[0m] START: compute_density_matrix
+[[32m00:37.776[0m] END:   compute_density_matrix after 0.071 ms
+[[32m00:37.776[0m] START: compute_fock_matrix
+[[32m00:39.291[0m] END:   compute_fock_matrix after 1514.8 ms
+[[32m00:39.291[0m] START: compute_energy
+[[32m00:39.291[0m] END:   compute_energy after 0.069 ms
+---- Iteration: 23 ----  Energy: -3802.5488345460794 Total energy: -1519.663238386127 Energy difference: 0.001801103668 
+[[32m00:39.291[0m] START: update_fock_matrix
+[[32m00:39.294[0m] END:   update_fock_matrix after 2.332 ms
+[[31m00:39.294[0m] SCF Iteration 24
+[[32m00:39.294[0m] START: compute_coefficient_matrix_impl
+[[32m00:39.299[0m] END:   compute_coefficient_matrix_impl after 5.257 ms
+[[32m00:39.299[0m] START: compute_density_matrix
+[[32m00:39.299[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:39.299[0m] START: compute_fock_matrix
+[[32m00:40.810[0m] END:   compute_fock_matrix after 1511.2 ms
+[[32m00:40.810[0m] START: compute_energy
+[[32m00:40.810[0m] END:   compute_energy after 0.054 ms
+---- Iteration: 24 ----  Energy: -3802.5500428595824 Total energy: -1519.6644466996299 Energy difference: 0.001208313503 
+[[32m00:40.810[0m] START: update_fock_matrix
+[[32m00:40.812[0m] END:   update_fock_matrix after 2.127 ms
+[[31m00:40.812[0m] SCF Iteration 25
+[[32m00:40.812[0m] START: compute_coefficient_matrix_impl
+[[32m00:40.818[0m] END:   compute_coefficient_matrix_impl after 5.235 ms
+[[32m00:40.818[0m] START: compute_density_matrix
+[[32m00:40.818[0m] END:   compute_density_matrix after 0.073 ms
+[[32m00:40.818[0m] START: compute_fock_matrix
+[[32m00:42.323[0m] END:   compute_fock_matrix after 1505.3 ms
+[[32m00:42.323[0m] START: compute_energy
+[[32m00:42.323[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 25 ----  Energy: -3802.5522752590832 Total energy: -1519.6666790991308 Energy difference: 0.002232399501 
+[[32m00:42.323[0m] START: update_fock_matrix
+[[32m00:42.325[0m] END:   update_fock_matrix after 2.107 ms
+[[31m00:42.325[0m] SCF Iteration 26
+[[32m00:42.325[0m] START: compute_coefficient_matrix_impl
+[[32m00:42.331[0m] END:   compute_coefficient_matrix_impl after 5.481 ms
+[[32m00:42.331[0m] START: compute_density_matrix
+[[32m00:42.331[0m] END:   compute_density_matrix after 0.074 ms
+[[32m00:42.331[0m] START: compute_fock_matrix
+[[32m00:43.826[0m] END:   compute_fock_matrix after 1495.3 ms
+[[32m00:43.826[0m] START: compute_energy
+[[32m00:43.826[0m] END:   compute_energy after 0.062 ms
+---- Iteration: 26 ----  Energy: -3802.5522466028256 Total energy: -1519.6666504428731 Energy difference: 2.865625765e-05 
+[[32m00:43.826[0m] START: update_fock_matrix
+[[32m00:43.828[0m] END:   update_fock_matrix after 2.285 ms
+[[31m00:43.829[0m] SCF Iteration 27
+[[32m00:43.829[0m] START: compute_coefficient_matrix_impl
+[[32m00:43.834[0m] END:   compute_coefficient_matrix_impl after 5.238 ms
+[[32m00:43.834[0m] START: compute_density_matrix
+[[32m00:43.834[0m] END:   compute_density_matrix after 0.073 ms
+[[32m00:43.834[0m] START: compute_fock_matrix
+[[32m00:45.334[0m] END:   compute_fock_matrix after 1500 ms
+[[32m00:45.334[0m] START: compute_energy
+[[32m00:45.334[0m] END:   compute_energy after 0.061 ms
+---- Iteration: 27 ----  Energy: -3802.5526506886054 Total energy: -1519.6670545286529 Energy difference: 0.0004040857798 
+[[32m00:45.334[0m] START: update_fock_matrix
+[[32m00:45.339[0m] END:   update_fock_matrix after 5.478 ms
+[[31m00:45.339[0m] SCF Iteration 28
+[[32m00:45.339[0m] START: compute_coefficient_matrix_impl
+[[32m00:45.345[0m] END:   compute_coefficient_matrix_impl after 5.3 ms
+[[32m00:45.345[0m] START: compute_density_matrix
+[[32m00:45.345[0m] END:   compute_density_matrix after 0.071 ms
+[[32m00:45.345[0m] START: compute_fock_matrix
+[[32m00:46.839[0m] END:   compute_fock_matrix after 1493.8 ms
+[[32m00:46.839[0m] START: compute_energy
+[[32m00:46.839[0m] END:   compute_energy after 0.055 ms
+---- Iteration: 28 ----  Energy: -3802.5530841664645 Total energy: -1519.667488006512 Energy difference: 0.0004334778591 
+[[32m00:46.839[0m] START: update_fock_matrix
+[[32m00:46.845[0m] END:   update_fock_matrix after 5.793 ms
+[[31m00:46.845[0m] SCF Iteration 29
+[[32m00:46.845[0m] START: compute_coefficient_matrix_impl
+[[32m00:46.850[0m] END:   compute_coefficient_matrix_impl after 5.226 ms
+[[32m00:46.850[0m] START: compute_density_matrix
+[[32m00:46.850[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:46.850[0m] START: compute_fock_matrix
+[[32m00:48.340[0m] END:   compute_fock_matrix after 1490.3 ms
+[[32m00:48.340[0m] START: compute_energy
+[[32m00:48.340[0m] END:   compute_energy after 0.069 ms
+---- Iteration: 29 ----  Energy: -3802.5529513008919 Total energy: -1519.6673551409394 Energy difference: 0.0001328655726 
+[[32m00:48.340[0m] START: update_fock_matrix
+[[32m00:48.350[0m] END:   update_fock_matrix after 9.281 ms
+[[31m00:48.350[0m] SCF Iteration 30
+[[32m00:48.350[0m] START: compute_coefficient_matrix_impl
+[[32m00:48.355[0m] END:   compute_coefficient_matrix_impl after 5.344 ms
+[[32m00:48.355[0m] START: compute_density_matrix
+[[32m00:48.355[0m] END:   compute_density_matrix after 0.077 ms
+[[32m00:48.355[0m] START: compute_fock_matrix
+[[32m00:49.845[0m] END:   compute_fock_matrix after 1490 ms
+[[32m00:49.845[0m] START: compute_energy
+[[32m00:49.845[0m] END:   compute_energy after 0.059 ms
+---- Iteration: 30 ----  Energy: -3802.553108432056 Total energy: -1519.6675122721035 Energy difference: 0.0001571311641 
+[[32m00:49.845[0m] START: update_fock_matrix
+[[32m00:49.847[0m] END:   update_fock_matrix after 2.181 ms
+[[31m00:49.847[0m] SCF Iteration 31
+[[32m00:49.847[0m] START: compute_coefficient_matrix_impl
+[[32m00:49.852[0m] END:   compute_coefficient_matrix_impl after 5.222 ms
+[[32m00:49.853[0m] START: compute_density_matrix
+[[32m00:49.853[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:49.853[0m] START: compute_fock_matrix
+[[32m00:51.333[0m] END:   compute_fock_matrix after 1480.9 ms
+[[32m00:51.334[0m] START: compute_energy
+[[32m00:51.334[0m] END:   compute_energy after 0.054 ms
+---- Iteration: 31 ----  Energy: -3802.552993889974 Total energy: -1519.6673977300215 Energy difference: 0.000114542082 
+[[32m00:51.334[0m] START: update_fock_matrix
+[[32m00:51.336[0m] END:   update_fock_matrix after 2.137 ms
+[[31m00:51.336[0m] SCF Iteration 32
+[[32m00:51.336[0m] START: compute_coefficient_matrix_impl
+[[32m00:51.341[0m] END:   compute_coefficient_matrix_impl after 5.238 ms
+[[32m00:51.341[0m] START: compute_density_matrix
+[[32m00:51.341[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:51.341[0m] START: compute_fock_matrix
+[[32m00:52.821[0m] END:   compute_fock_matrix after 1480.2 ms
+[[32m00:52.821[0m] START: compute_energy
+[[32m00:52.821[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 32 ----  Energy: -3802.5529025840415 Total energy: -1519.667306424089 Energy difference: 9.130593253e-05 
+[[32m00:52.821[0m] START: update_fock_matrix
+[[32m00:52.823[0m] END:   update_fock_matrix after 2.104 ms
+[[31m00:52.823[0m] SCF Iteration 33
+[[32m00:52.823[0m] START: compute_coefficient_matrix_impl
+[[32m00:52.829[0m] END:   compute_coefficient_matrix_impl after 5.218 ms
+[[32m00:52.829[0m] START: compute_density_matrix
+[[32m00:52.829[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:52.829[0m] START: compute_fock_matrix
+[[32m00:54.306[0m] END:   compute_fock_matrix after 1477.7 ms
+[[32m00:54.306[0m] START: compute_energy
+[[32m00:54.307[0m] END:   compute_energy after 0.052 ms
+---- Iteration: 33 ----  Energy: -3802.5528113938003 Total energy: -1519.6672152338479 Energy difference: 9.119024116e-05 
+[[32m00:54.307[0m] START: update_fock_matrix
+[[32m00:54.312[0m] END:   update_fock_matrix after 5.499 ms
+[[31m00:54.312[0m] SCF Iteration 34
+[[32m00:54.312[0m] START: compute_coefficient_matrix_impl
+[[32m00:54.317[0m] END:   compute_coefficient_matrix_impl after 5.257 ms
+[[32m00:54.317[0m] START: compute_density_matrix
+[[32m00:54.317[0m] END:   compute_density_matrix after 0.073 ms
+[[32m00:54.317[0m] START: compute_fock_matrix
+[[32m00:55.795[0m] END:   compute_fock_matrix after 1477.2 ms
+[[32m00:55.795[0m] START: compute_energy
+[[32m00:55.795[0m] END:   compute_energy after 0.055 ms
+---- Iteration: 34 ----  Energy: -3802.5527542570621 Total energy: -1519.6671580971097 Energy difference: 5.713673818e-05 
+[[32m00:55.795[0m] START: update_fock_matrix
+[[32m00:55.797[0m] END:   update_fock_matrix after 2.117 ms
+[[31m00:55.797[0m] SCF Iteration 35
+[[32m00:55.797[0m] START: compute_coefficient_matrix_impl
+[[32m00:55.802[0m] END:   compute_coefficient_matrix_impl after 5.234 ms
+[[32m00:55.802[0m] START: compute_density_matrix
+[[32m00:55.802[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:55.802[0m] START: compute_fock_matrix
+[[32m00:57.273[0m] END:   compute_fock_matrix after 1470.6 ms
+[[32m00:57.273[0m] START: compute_energy
+[[32m00:57.273[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 35 ----  Energy: -3802.5527509671024 Total energy: -1519.6671548071499 Energy difference: 3.28995975e-06 
+[[32m00:57.273[0m] START: update_fock_matrix
+[[32m00:57.275[0m] END:   update_fock_matrix after 2.112 ms
+[[31m00:57.275[0m] SCF Iteration 36
+[[32m00:57.275[0m] START: compute_coefficient_matrix_impl
+[[32m00:57.280[0m] END:   compute_coefficient_matrix_impl after 5.22 ms
+[[32m00:57.280[0m] START: compute_density_matrix
+[[32m00:57.280[0m] END:   compute_density_matrix after 0.073 ms
+[[32m00:57.280[0m] START: compute_fock_matrix
+[[32m00:58.759[0m] END:   compute_fock_matrix after 1479 ms
+[[32m00:58.759[0m] START: compute_energy
+[[32m00:58.759[0m] END:   compute_energy after 0.061 ms
+---- Iteration: 36 ----  Energy: -3802.5526943595692 Total energy: -1519.6670981996167 Energy difference: 5.660753322e-05 
+[[32m00:58.759[0m] START: update_fock_matrix
+[[32m00:58.761[0m] END:   update_fock_matrix after 2.134 ms
+[[31m00:58.761[0m] SCF Iteration 37
+[[32m00:58.761[0m] START: compute_coefficient_matrix_impl
+[[32m00:58.767[0m] END:   compute_coefficient_matrix_impl after 5.222 ms
+[[32m00:58.767[0m] START: compute_density_matrix
+[[32m00:58.767[0m] END:   compute_density_matrix after 0.072 ms
+[[32m00:58.767[0m] START: compute_fock_matrix
+[[32m01:00.236[0m] END:   compute_fock_matrix after 1469.3 ms
+[[32m01:00.236[0m] START: compute_energy
+[[32m01:00.236[0m] END:   compute_energy after 0.083 ms
+---- Iteration: 37 ----  Energy: -3802.5527060337613 Total energy: -1519.6671098738088 Energy difference: 1.167419214e-05 
+[[32m01:00.236[0m] START: update_fock_matrix
+[[32m01:00.238[0m] END:   update_fock_matrix after 2.125 ms
+[[31m01:00.238[0m] SCF Iteration 38
+[[32m01:00.238[0m] START: compute_coefficient_matrix_impl
+[[32m01:00.244[0m] END:   compute_coefficient_matrix_impl after 5.225 ms
+[[32m01:00.244[0m] START: compute_density_matrix
+[[32m01:00.244[0m] END:   compute_density_matrix after 0.07 ms
+[[32m01:00.244[0m] START: compute_fock_matrix
+[[32m01:01.726[0m] END:   compute_fock_matrix after 1482.3 ms
+[[32m01:01.726[0m] START: compute_energy
+[[32m01:01.726[0m] END:   compute_energy after 0.055 ms
+---- Iteration: 38 ----  Energy: -3802.552663804333 Total energy: -1519.6670676443805 Energy difference: 4.222942835e-05 
+[[32m01:01.726[0m] START: update_fock_matrix
+[[32m01:01.729[0m] END:   update_fock_matrix after 3.241 ms
+[[31m01:01.729[0m] SCF Iteration 39
+[[32m01:01.729[0m] START: compute_coefficient_matrix_impl
+[[32m01:01.735[0m] END:   compute_coefficient_matrix_impl after 6.172 ms
+[[32m01:01.735[0m] START: compute_density_matrix
+[[32m01:01.736[0m] END:   compute_density_matrix after 0.077 ms
+[[32m01:01.736[0m] START: compute_fock_matrix
+[[32m01:03.209[0m] END:   compute_fock_matrix after 1473.6 ms
+[[32m01:03.209[0m] START: compute_energy
+[[32m01:03.209[0m] END:   compute_energy after 0.055 ms
+---- Iteration: 39 ----  Energy: -3802.5526476546897 Total energy: -1519.6670514947373 Energy difference: 1.614964322e-05 
+[[32m01:03.209[0m] START: update_fock_matrix
+[[32m01:03.211[0m] END:   update_fock_matrix after 2.105 ms
+[[31m01:03.211[0m] SCF Iteration 40
+[[32m01:03.211[0m] START: compute_coefficient_matrix_impl
+[[32m01:03.216[0m] END:   compute_coefficient_matrix_impl after 5.213 ms
+[[32m01:03.216[0m] START: compute_density_matrix
+[[32m01:03.217[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:03.217[0m] START: compute_fock_matrix
+[[32m01:04.693[0m] END:   compute_fock_matrix after 1476.8 ms
+[[32m01:04.693[0m] START: compute_energy
+[[32m01:04.693[0m] END:   compute_energy after 0.052 ms
+---- Iteration: 40 ----  Energy: -3802.5526326952117 Total energy: -1519.6670365352593 Energy difference: 1.495947799e-05 
+[[32m01:04.693[0m] START: update_fock_matrix
+[[32m01:04.696[0m] END:   update_fock_matrix after 2.109 ms
+[[31m01:04.696[0m] SCF Iteration 41
+[[32m01:04.696[0m] START: compute_coefficient_matrix_impl
+[[32m01:04.701[0m] END:   compute_coefficient_matrix_impl after 5.22 ms
+[[32m01:04.701[0m] START: compute_density_matrix
+[[32m01:04.701[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:04.701[0m] START: compute_fock_matrix
+[[32m01:06.183[0m] END:   compute_fock_matrix after 1481.7 ms
+[[32m01:06.183[0m] START: compute_energy
+[[32m01:06.183[0m] END:   compute_energy after 0.071 ms
+---- Iteration: 41 ----  Energy: -3802.5526181353925 Total energy: -1519.6670219754401 Energy difference: 1.455981919e-05 
+[[32m01:06.183[0m] START: update_fock_matrix
+[[32m01:06.185[0m] END:   update_fock_matrix after 2.351 ms
+[[31m01:06.185[0m] SCF Iteration 42
+[[32m01:06.185[0m] START: compute_coefficient_matrix_impl
+[[32m01:06.190[0m] END:   compute_coefficient_matrix_impl after 5.256 ms
+[[32m01:06.190[0m] START: compute_density_matrix
+[[32m01:06.190[0m] END:   compute_density_matrix after 0.075 ms
+[[32m01:06.190[0m] START: compute_fock_matrix
+[[32m01:07.670[0m] END:   compute_fock_matrix after 1479.3 ms
+[[32m01:07.670[0m] START: compute_energy
+[[32m01:07.670[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 42 ----  Energy: -3802.5525391466122 Total energy: -1519.6669429866597 Energy difference: 7.898878039e-05 
+[[32m01:07.670[0m] START: update_fock_matrix
+[[32m01:07.672[0m] END:   update_fock_matrix after 2.114 ms
+[[31m01:07.672[0m] SCF Iteration 43
+[[32m01:07.672[0m] START: compute_coefficient_matrix_impl
+[[32m01:07.677[0m] END:   compute_coefficient_matrix_impl after 5.239 ms
+[[32m01:07.677[0m] START: compute_density_matrix
+[[32m01:07.677[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:07.677[0m] START: compute_fock_matrix
+[[32m01:09.160[0m] END:   compute_fock_matrix after 1483.1 ms
+[[32m01:09.160[0m] START: compute_energy
+[[32m01:09.160[0m] END:   compute_energy after 0.054 ms
+---- Iteration: 43 ----  Energy: -3802.5525771008747 Total energy: -1519.6669809409223 Energy difference: 3.795426255e-05 
+[[32m01:09.160[0m] START: update_fock_matrix
+[[32m01:09.164[0m] END:   update_fock_matrix after 3.898 ms
+[[31m01:09.164[0m] SCF Iteration 44
+[[32m01:09.164[0m] START: compute_coefficient_matrix_impl
+[[32m01:09.171[0m] END:   compute_coefficient_matrix_impl after 6.77 ms
+[[32m01:09.171[0m] START: compute_density_matrix
+[[32m01:09.171[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:09.171[0m] START: compute_fock_matrix
+[[32m01:10.663[0m] END:   compute_fock_matrix after 1492.2 ms
+[[32m01:10.663[0m] START: compute_energy
+[[32m01:10.663[0m] END:   compute_energy after 0.059 ms
+---- Iteration: 44 ----  Energy: -3802.5525205566701 Total energy: -1519.6669243967176 Energy difference: 5.654420465e-05 
+[[32m01:10.663[0m] START: update_fock_matrix
+[[32m01:10.666[0m] END:   update_fock_matrix after 2.172 ms
+[[31m01:10.666[0m] SCF Iteration 45
+[[32m01:10.666[0m] START: compute_coefficient_matrix_impl
+[[32m01:10.671[0m] END:   compute_coefficient_matrix_impl after 5.237 ms
+[[32m01:10.671[0m] START: compute_density_matrix
+[[32m01:10.671[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:10.671[0m] START: compute_fock_matrix
+[[32m01:12.155[0m] END:   compute_fock_matrix after 1484 ms
+[[32m01:12.155[0m] START: compute_energy
+[[32m01:12.155[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 45 ----  Energy: -3802.5525904736132 Total energy: -1519.6669943136608 Energy difference: 6.991694318e-05 
+[[32m01:12.155[0m] START: update_fock_matrix
+[[32m01:12.157[0m] END:   update_fock_matrix after 2.18 ms
+[[31m01:12.157[0m] SCF Iteration 46
+[[32m01:12.157[0m] START: compute_coefficient_matrix_impl
+[[32m01:12.162[0m] END:   compute_coefficient_matrix_impl after 5.232 ms
+[[32m01:12.162[0m] START: compute_density_matrix
+[[32m01:12.162[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:12.162[0m] START: compute_fock_matrix
+[[32m01:13.637[0m] END:   compute_fock_matrix after 1474.1 ms
+[[32m01:13.637[0m] START: compute_energy
+[[32m01:13.637[0m] END:   compute_energy after 0.054 ms
+---- Iteration: 46 ----  Energy: -3802.5526121896469 Total energy: -1519.6670160296944 Energy difference: 2.171603364e-05 
+[[32m01:13.637[0m] START: update_fock_matrix
+[[32m01:13.639[0m] END:   update_fock_matrix after 2.111 ms
+[[31m01:13.639[0m] SCF Iteration 47
+[[32m01:13.639[0m] START: compute_coefficient_matrix_impl
+[[32m01:13.644[0m] END:   compute_coefficient_matrix_impl after 5.233 ms
+[[32m01:13.644[0m] START: compute_density_matrix
+[[32m01:13.644[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:13.644[0m] START: compute_fock_matrix
+[[32m01:15.121[0m] END:   compute_fock_matrix after 1477.1 ms
+[[32m01:15.121[0m] START: compute_energy
+[[32m01:15.121[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 47 ----  Energy: -3802.5526035401617 Total energy: -1519.6670073802093 Energy difference: 8.649485153e-06 
+[[32m01:15.121[0m] START: update_fock_matrix
+[[32m01:15.123[0m] END:   update_fock_matrix after 2.095 ms
+[[31m01:15.123[0m] SCF Iteration 48
+[[32m01:15.123[0m] START: compute_coefficient_matrix_impl
+[[32m01:15.129[0m] END:   compute_coefficient_matrix_impl after 5.218 ms
+[[32m01:15.129[0m] START: compute_density_matrix
+[[32m01:15.129[0m] END:   compute_density_matrix after 0.073 ms
+[[32m01:15.129[0m] START: compute_fock_matrix
+[[32m01:16.604[0m] END:   compute_fock_matrix after 1474.9 ms
+[[32m01:16.604[0m] START: compute_energy
+[[32m01:16.604[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 48 ----  Energy: -3802.552606385284 Total energy: -1519.6670102253315 Energy difference: 2.845122253e-06 
+[[32m01:16.604[0m] START: update_fock_matrix
+[[32m01:16.606[0m] END:   update_fock_matrix after 2.118 ms
+[[31m01:16.606[0m] SCF Iteration 49
+[[32m01:16.606[0m] START: compute_coefficient_matrix_impl
+[[32m01:16.611[0m] END:   compute_coefficient_matrix_impl after 5.222 ms
+[[32m01:16.611[0m] START: compute_density_matrix
+[[32m01:16.611[0m] END:   compute_density_matrix after 0.073 ms
+[[32m01:16.611[0m] START: compute_fock_matrix
+[[32m01:18.083[0m] END:   compute_fock_matrix after 1472 ms
+[[32m01:18.083[0m] START: compute_energy
+[[32m01:18.083[0m] END:   compute_energy after 0.054 ms
+---- Iteration: 49 ----  Energy: -3802.5526155997932 Total energy: -1519.6670194398407 Energy difference: 9.214509191e-06 
+[[32m01:18.083[0m] START: update_fock_matrix
+[[32m01:18.086[0m] END:   update_fock_matrix after 2.418 ms
+[[31m01:18.086[0m] SCF Iteration 50
+[[32m01:18.086[0m] START: compute_coefficient_matrix_impl
+[[32m01:18.091[0m] END:   compute_coefficient_matrix_impl after 5.233 ms
+[[32m01:18.091[0m] START: compute_density_matrix
+[[32m01:18.091[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:18.091[0m] START: compute_fock_matrix
+[[32m01:19.560[0m] END:   compute_fock_matrix after 1469.1 ms
+[[32m01:19.560[0m] START: compute_energy
+[[32m01:19.560[0m] END:   compute_energy after 0.061 ms
+---- Iteration: 50 ----  Energy: -3802.5526185312929 Total energy: -1519.6670223713404 Energy difference: 2.931499694e-06 
+[[32m01:19.560[0m] START: update_fock_matrix
+[[32m01:19.562[0m] END:   update_fock_matrix after 2.123 ms
+[[31m01:19.562[0m] SCF Iteration 51
+[[32m01:19.562[0m] START: compute_coefficient_matrix_impl
+[[32m01:19.567[0m] END:   compute_coefficient_matrix_impl after 5.227 ms
+[[32m01:19.567[0m] START: compute_density_matrix
+[[32m01:19.567[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:19.567[0m] START: compute_fock_matrix
+[[32m01:21.038[0m] END:   compute_fock_matrix after 1470.7 ms
+[[32m01:21.038[0m] START: compute_energy
+[[32m01:21.038[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 51 ----  Energy: -3802.5526266956135 Total energy: -1519.6670305356611 Energy difference: 8.164320661e-06 
+[[32m01:21.038[0m] START: update_fock_matrix
+[[32m01:21.040[0m] END:   update_fock_matrix after 2.121 ms
+[[31m01:21.040[0m] SCF Iteration 52
+[[32m01:21.040[0m] START: compute_coefficient_matrix_impl
+[[32m01:21.046[0m] END:   compute_coefficient_matrix_impl after 5.25 ms
+[[32m01:21.046[0m] START: compute_density_matrix
+[[32m01:21.046[0m] END:   compute_density_matrix after 0.071 ms
+[[32m01:21.046[0m] START: compute_fock_matrix
+[[32m01:22.511[0m] END:   compute_fock_matrix after 1465.3 ms
+[[32m01:22.511[0m] START: compute_energy
+[[32m01:22.511[0m] END:   compute_energy after 0.052 ms
+---- Iteration: 52 ----  Energy: -3802.5526296087442 Total energy: -1519.6670334487917 Energy difference: 2.913130629e-06 
+[[32m01:22.511[0m] START: update_fock_matrix
+[[32m01:22.513[0m] END:   update_fock_matrix after 2.08 ms
+[[31m01:22.513[0m] SCF Iteration 53
+[[32m01:22.513[0m] START: compute_coefficient_matrix_impl
+[[32m01:22.518[0m] END:   compute_coefficient_matrix_impl after 5.212 ms
+[[32m01:22.518[0m] START: compute_density_matrix
+[[32m01:22.518[0m] END:   compute_density_matrix after 0.072 ms
+[[32m01:22.518[0m] START: compute_fock_matrix
+[[32m01:23.981[0m] END:   compute_fock_matrix after 1462.8 ms
+[[32m01:23.981[0m] START: compute_energy
+[[32m01:23.981[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 53 ----  Energy: -3802.5526295667514 Total energy: -1519.667033406799 Energy difference: 4.199273462e-08 
+[[32m01:23.981[0m] START: post_process_after_scf
+[[32m01:23.981[0m] END:   post_process_after_scf after 0.006 ms
+
+[Timing Summary]
+update_fock_matrix: 166.38 ms total, called 53 times.
+compute_energy: 3.765 ms total, called 54 times.
+compute_coefficient_matrix_impl: 288.39 ms total, called 54 times.
+guess_initial_fock_matrix: 1621 ms total, called 1 times.
+compute_fock_matrix: 83138 ms total, called 55 times.
+compute_density_matrix: 4.09 ms total, called 55 times.
+post_process_after_scf: 0.006 ms total, called 1 times.
+compute_transform_matrix: 273.72 ms total, called 1 times.
+precompute_eri_matrix: 61.253 ms total, called 1 times.
+compute_core_hamiltonian_matrix: 37.107 ms total, called 1 times.
+compute_nuclear_repulsion_energy: 0.071 ms total, called 1 times.
+[[32m01:23.981[0m] START: compute_Energy_Gradient
+[[32m04:51.693[0m] END:   compute_Energy_Gradient after 2.0771e+05 ms
+
+============================================================
+                   Energy Gradient                          
+============================================================
+00Atom000000000000000dE/dx000000000000000dE/dy000000000000000dE/dz
+000H  0-1.5920997291e-02000-1.8912444053e-0200002.1128269313e-03
+000O  002.4107041128e-0200003.2721571061e-02000-5.0727435167e-03
+000H  002.4906197232e-04000-2.9874344999e-0200005.3166279074e-03
+000H  0-2.7186420798e-0200001.1864627992e-0200008.3532505744e-03
+000O  003.4008809872e-0200001.2026135809e-02000-1.1695752876e-02
+000H  0-1.6079173878e-02000-2.8173852494e-0200001.6460904686e-02
+000H  0-2.2656555300e-0100004.0401180179e-0100004.0779275340e-01
+000O  0-5.6053743570e-0100007.3726568824e-0200005.2881413892e-01
+000H  003.7638608258e-01000-2.7298475067e-01000-4.8816301190e-01
+000H  002.6276924084e-0400001.4372344144e-02000-1.4011454073e-02
+000O  005.6970575361e-02000-1.7760013274e-02000-1.0770083144e-02
+000H  0-4.2681775250e-0200001.2374646395e-02000-7.4045792705e-03
+000H  0-1.8403946919e-02000-5.3575825420e-03000-2.5307098228e-02
+000O  005.7750503613e-03000-5.2085981284e-0300004.5492709133e-02
+000H  001.5221387785e-0200001.4648483278e-02000-2.0019089376e-02
+000H  002.1970916479e-01000-1.3441071400e-01000-8.3555445253e-03
+000O  0-3.2736759435e-0100004.2063035455e-0100001.9266395405e-01
+000H  003.1823270176e-01000-3.0541842442e-01000-3.6487955052e-01
+000H  0-1.6235705629e-0200004.8809305913e-02000-4.6295388425e-02
+000O  0-6.0983023571e-04000-5.7448633289e-0200004.7425263213e-02
+000H  001.7822276270e-0200006.4634604174e-03000-1.9980676829e-04
+000H  002.8125431525e-0200002.4810088720e-0300003.0709848636e-02
+000O  001.8224646786e-02000-2.0166368891e-02000-6.0413069509e-02
+000H  0-3.5748779247e-0200002.4553847699e-0200002.3999105782e-02
+000H  003.7990609187e-03000-2.0335182124e-0200007.4148313771e-03
+000O  0-3.1087191435e-0200003.5807204040e-02000-2.3718991454e-02
+000H  002.0331252549e-02000-2.1287365744e-0200005.6810700944e-03
+000H  0-1.0509622322e-02000-4.3261474515e-0200002.1430500265e-03
+000O  0-1.0621349834e-01000-1.0273271167e-03000-3.2803714305e-02
+000H  005.6699620597e-0200006.7110816751e-0200001.3004900509e-02
+000H  002.6479599690e-03000-3.1077137724e-02000-9.7757844805e-02
+000O  003.1445507712e-01000-1.1886408077e-01000-3.9271369599e-01
+000H  006.0962686935e-02000-5.8110825053e-02000-5.4404715332e-02
+000H  003.1766284465e-03000-1.7271684906e-0200006.0759637820e-02
+000O  004.2293931880e-0200008.2690314362e-02000-3.6897628246e-02
+000H  0-5.6209586571e-02000-5.9846924534e-02000-2.2817468785e-02
+000H  0-1.5880562110e-0300001.1218256298e-0200003.1211769627e-02
+000O  0-2.7582441946e-02000-7.0093101757e-03000-3.7433078785e-02
+000H  001.4471409950e-0200009.8336840070e-0300001.2438513625e-02
+000H  0-9.0006291929e-0200001.4189374486e-0200002.5531436811e-03
+000O  0-2.5343325391e-01000-8.3223053424e-01000-2.9836380145e-01
+000H  001.8389395532e-0100007.0881309727e-0100006.6366815598e-01
+000H  0-3.8771245042e-02000-1.4771779222e-02000-1.0180224532e-02
+000O  004.4462801791e-0200001.3999929835e-0300003.4904320952e-02
+000H  0-6.1857515174e-0400006.9625271081e-03000-2.9578968000e-02
+000H  002.2588682000e-0200004.8265606398e-0200001.8116545909e-02
+000O  0-6.2145614210e-0300003.7259605467e-02000-5.3499411695e-02
+000H  002.7753262575e-0200002.7752984025e-0200002.3698660872e-02
+000H  001.2992109379e-02000-3.6709756356e-0200002.6108461984e-02
+000O  0-3.5596762450e-0200001.0630180302e-02000-4.5802200355e-02
+000H  002.1950885827e-0200002.1487769911e-0200001.7847117794e-02
+000H  003.6880225112e-0200004.9805923802e-02000-4.1718529339e-03
+000O  0-1.0446167340e-02000-5.4879964004e-02000-1.4286285809e-02
+000H  0-1.9661526146e-0200002.4631350579e-0200001.7169875894e-03
+000H  003.0093397373e-0200001.0951829643e-02000-6.4162478569e-03
+000O  0-2.6490932137e-02000-4.9628786312e-0200004.0827164712e-02
+000H  0-2.7541369442e-0300004.1032445622e-02000-3.5836425151e-02
+000H  0-4.3558683228e-0200007.9212579559e-03000-1.9718567834e-02
+000O  008.4817855587e-03000-6.1715264014e-0200006.4043947925e-02
+000H  002.5050012071e-0200002.7294745792e-02000-5.6291368264e-02
+
+[Molecule Summary]
+Number of atoms: 60
+Atom 0: H (3.722495904, -6.867302531, 2.526601623)
+Atom 1: O (5.487689077, -6.439903174, 2.042189228)
+Atom 2: H (6.268240453, -8.090749019, 2.261454151)
+Atom 3: H (-5.592398801, 7.490231851, -1.375493852)
+Atom 4: O (-4.039913201, 6.543668035, -1.639053954)
+Atom 5: H (-4.521302034, 4.896034725, -0.8984513887)
+Atom 6: H (1.959702683, 2.017244844, 5.564317471)
+Atom 7: O (1.435587142, 0.2251419705, 5.514145243)
+Atom 8: H (2.703366605, -0.4051950756, 4.301054454)
+Atom 9: H (0.2659978493, -6.423821604, 5.093095365)
+Atom 10: O (0.7181715164, -7.068256008, 3.397595291)
+Atom 11: H (-0.700200221, -6.334947785, 2.43126494)
+Atom 12: H (-11.66076292, -4.99239186, -6.235567088)
+Atom 13: O (-10.34058135, -4.479973724, -5.067149425)
+Atom 14: H (-9.139225765, -3.63379216, -6.214005313)
+Atom 15: H (8.936495946, 2.595614421, 1.364042111)
+Atom 16: O (7.180751404, 2.937579261, 1.807655319)
+Atom 17: H (6.492154101, 1.191642397, 1.804971908)
+Atom 18: H (-7.248365804, 3.595997637, -11.51825867)
+Atom 19: O (-6.731809168, 2.339310867, -10.28215102)
+Atom 20: H (-4.967258502, 2.894342327, -9.975089424)
+Atom 21: H (1.022096169, 5.33214572, -3.426149053)
+Atom 22: O (-0.1695651252, 5.567000882, -4.830952557)
+Atom 23: H (-1.633139111, 6.19601512, -3.851299637)
+Atom 24: H (-0.9393072675, -0.8176466996, -4.862378702)
+Atom 25: O (-1.213260864, -1.333863185, -6.635962259)
+Atom 26: H (0.005045568753, -2.706257886, -6.783512075)
+Atom 27: H (-3.375995722, -2.079473525, 3.777978263)
+Atom 28: O (-3.646585605, -0.3819136498, 4.487400347)
+Atom 29: H (-1.903899071, 0.02086257642, 4.999818483)
+Atom 30: H (3.436202396, -1.896510241, 0.3645470667)
+Atom 31: O (4.713222619, -1.492014364, 1.644156215)
+Atom 32: H (5.34932333, -3.238253584, 1.938670031)
+Atom 33: H (-4.941482638, 1.410793936, 2.041905769)
+Atom 34: O (-5.15757282, 1.954392553, 0.2607444107)
+Atom 35: H (-6.176324174, 0.5085064029, -0.3438167711)
+Atom 36: H (1.985365164, 4.769271896, 1.239565851)
+Atom 37: O (2.442093071, 4.150821227, -0.4547625919)
+Atom 38: H (4.277980898, 3.990402377, -0.2045250585)
+Atom 39: H (-1.854747294, -3.627952906, 8.531414254)
+Atom 40: O (-0.435676358, -4.242907581, 7.535264025)
+Atom 41: H (0.4662143322, -2.653817986, 7.182187596)
+Atom 42: H (-8.372280417, -3.458236603, -2.218028244)
+Atom 43: O (-6.80666122, -2.484630806, -1.902028242)
+Atom 44: H (-6.504172759, -2.010271754, -3.685154916)
+Atom 45: H (3.932841319, 6.468627011, 5.727684295)
+Atom 46: O (3.510033996, 4.95353909, 4.770235656)
+Atom 47: H (5.163884505, 4.517900527, 4.0206002)
+Atom 48: H (-1.380142578, 1.680363367, -8.399851521)
+Atom 49: O (-1.934021305, 3.318925993, -9.081267865)
+Atom 50: H (-1.188354273, 4.432617187, -7.775523804)
+Atom 51: H (0.6513885952, 1.506697536, -1.414119854)
+Atom 52: O (-0.5507039872, 0.09297452533, -1.659198435)
+Atom 53: H (-2.1079328, 1.014801826, -1.181551259)
+Atom 54: H (-4.635082444, -1.620572433, -7.340319878)
+Atom 55: O (-6.486636101, -1.658102394, -7.108412688)
+Atom 56: H (-6.91906213, -0.2419227385, -8.261372391)
+Atom 57: H (-4.323069764, -3.951776375, -0.03673627586)
+Atom 58: O (-2.667556295, -4.08553119, 0.8210104121)
+Atom 59: H (-1.728589178, -2.849310153, -0.2057722777)
+Number of electrons: 200
+Number of alpha-spin electrons: 100
+Number of beta-spin electrons: 100
+Occupied orbitals: 100
+Virtual orbitals: 400
+
+[Basis Set Summary]
+Number of basis functions: 500
+Number of primitive basis functions: 640
+
+[Device Memory Statistics]
+Current allocated: 70.01 MB
+Total allocated: 1.29 GB
+Peak usage: 86.80 MB
+
+[Orbital Energies]
+  MO 0001 (occ) -20.949251 hartree
+  MO 0002 (occ) -20.662199 hartree
+  MO 0003 (occ) -20.657260 hartree
+  MO 0004 (occ) -20.642648 hartree
+  MO 0005 (occ) -20.623228 hartree
+  MO 0006 (occ) -20.615319 hartree
+  MO 0007 (occ) -20.615145 hartree
+  MO 0008 (occ) -20.612417 hartree
+  MO 0009 (occ) -20.608064 hartree
+  MO 0010 (occ) -20.594099 hartree
+  MO 0011 (occ) -20.580973 hartree
+  MO 0012 (occ) -20.564698 hartree
+  MO 0013 (occ) -20.560200 hartree
+  MO 0014 (occ) -20.556275 hartree
+  MO 0015 (occ) -20.554125 hartree
+  MO 0016 (occ) -20.553323 hartree
+  MO 0017 (occ) -20.547066 hartree
+  MO 0018 (occ) -20.520470 hartree
+  MO 0019 (occ) -20.519452 hartree
+  MO 0020 (occ) -20.500668 hartree
+  MO 0021 (occ) -1.598121 hartree
+  MO 0022 (occ) -1.415592 hartree
+  MO 0023 (occ) -1.408537 hartree
+  MO 0024 (occ) -1.407697 hartree
+  MO 0025 (occ) -1.393125 hartree
+  MO 0026 (occ) -1.385913 hartree
+  MO 0027 (occ) -1.377917 hartree
+  MO 0028 (occ) -1.375577 hartree
+  MO 0029 (occ) -1.365090 hartree
+  MO 0030 (occ) -1.363357 hartree
+  MO 0031 (occ) -1.358836 hartree
+  MO 0032 (occ) -1.354522 hartree
+  MO 0033 (occ) -1.345456 hartree
+  MO 0034 (occ) -1.339099 hartree
+  MO 0035 (occ) -1.333864 hartree
+  MO 0036 (occ) -1.330258 hartree
+  MO 0037 (occ) -1.323158 hartree
+  MO 0038 (occ) -1.306937 hartree
+  MO 0039 (occ) -1.299244 hartree
+  MO 0040 (occ) -1.280623 hartree
+  MO 0041 (occ) -0.950306 hartree
+  MO 0042 (occ) -0.905875 hartree
+  MO 0043 (occ) -0.855690 hartree
+  MO 0044 (occ) -0.777620 hartree
+  MO 0045 (occ) -0.767054 hartree
+  MO 0046 (occ) -0.756614 hartree
+  MO 0047 (occ) -0.744722 hartree
+  MO 0048 (occ) -0.740999 hartree
+  MO 0049 (occ) -0.740143 hartree
+  MO 0050 (occ) -0.737324 hartree
+  MO 0051 (occ) -0.731839 hartree
+  MO 0052 (occ) -0.724856 hartree
+  MO 0053 (occ) -0.722138 hartree
+  MO 0054 (occ) -0.716147 hartree
+  MO 0055 (occ) -0.714887 hartree
+  MO 0056 (occ) -0.713529 hartree
+  MO 0057 (occ) -0.708722 hartree
+  MO 0058 (occ) -0.704168 hartree
+  MO 0059 (occ) -0.699761 hartree
+  MO 0060 (occ) -0.698536 hartree
+  MO 0061 (occ) -0.684851 hartree
+  MO 0062 (occ) -0.680370 hartree
+  MO 0063 (occ) -0.666360 hartree
+  MO 0064 (occ) -0.663548 hartree
+  MO 0065 (occ) -0.654164 hartree
+  MO 0066 (occ) -0.650329 hartree
+  MO 0067 (occ) -0.644259 hartree
+  MO 0068 (occ) -0.638457 hartree
+  MO 0069 (occ) -0.635353 hartree
+  MO 0070 (occ) -0.619705 hartree
+  MO 0071 (occ) -0.617674 hartree
+  MO 0072 (occ) -0.606351 hartree
+  MO 0073 (occ) -0.595768 hartree
+  MO 0074 (occ) -0.591952 hartree
+  MO 0075 (occ) -0.585091 hartree
+  MO 0076 (occ) -0.584768 hartree
+  MO 0077 (occ) -0.577401 hartree
+  MO 0078 (occ) -0.569154 hartree
+  MO 0079 (occ) -0.559646 hartree
+  MO 0080 (occ) -0.552109 hartree
+  MO 0081 (occ) -0.549796 hartree
+  MO 0082 (occ) -0.546297 hartree
+  MO 0083 (occ) -0.544756 hartree
+  MO 0084 (occ) -0.531883 hartree
+  MO 0085 (occ) -0.529412 hartree
+  MO 0086 (occ) -0.528360 hartree
+  MO 0087 (occ) -0.524602 hartree
+  MO 0088 (occ) -0.521872 hartree
+  MO 0089 (occ) -0.519698 hartree
+  MO 0090 (occ) -0.512325 hartree
+  MO 0091 (occ) -0.503958 hartree
+  MO 0092 (occ) -0.503376 hartree
+  MO 0093 (occ) -0.500789 hartree
+  MO 0094 (occ) -0.499173 hartree
+  MO 0095 (occ) -0.492119 hartree
+  MO 0096 (occ) -0.489425 hartree
+  MO 0097 (occ) -0.486927 hartree
+  MO 0098 (occ) -0.473424 hartree
+  MO 0099 (occ) -0.461421 hartree
+  MO 0100 (occ) -0.447459 hartree
+  MO 0101 (vir) -0.344072 hartree
+  MO 0102 (vir) -0.131380 hartree
+  MO 0103 (vir) 0.015038 hartree
+  MO 0104 (vir) 0.093834 hartree
+  MO 0105 (vir) 0.123856 hartree
+  MO 0106 (vir) 0.128408 hartree
+  MO 0107 (vir) 0.142239 hartree
+  MO 0108 (vir) 0.148741 hartree
+  MO 0109 (vir) 0.169787 hartree
+  MO 0110 (vir) 0.178036 hartree
+  MO 0111 (vir) 0.183942 hartree
+  MO 0112 (vir) 0.185755 hartree
+  MO 0113 (vir) 0.206317 hartree
+  MO 0114 (vir) 0.212543 hartree
+  MO 0115 (vir) 0.217745 hartree
+  MO 0116 (vir) 0.223472 hartree
+  MO 0117 (vir) 0.238665 hartree
+  MO 0118 (vir) 0.241616 hartree
+  MO 0119 (vir) 0.254493 hartree
+  MO 0120 (vir) 0.261384 hartree
+  MO 0121 (vir) 0.271786 hartree
+  MO 0122 (vir) 0.281788 hartree
+  MO 0123 (vir) 0.291312 hartree
+  MO 0124 (vir) 0.295945 hartree
+  MO 0125 (vir) 0.305823 hartree
+  MO 0126 (vir) 0.317922 hartree
+  MO 0127 (vir) 0.328028 hartree
+  MO 0128 (vir) 0.334791 hartree
+  MO 0129 (vir) 0.343274 hartree
+  MO 0130 (vir) 0.353847 hartree
+  MO 0131 (vir) 0.373745 hartree
+  MO 0132 (vir) 0.377873 hartree
+  MO 0133 (vir) 0.400290 hartree
+  MO 0134 (vir) 0.404297 hartree
+  MO 0135 (vir) 0.413722 hartree
+  MO 0136 (vir) 0.424833 hartree
+  MO 0137 (vir) 0.438690 hartree
+  MO 0138 (vir) 0.443664 hartree
+  MO 0139 (vir) 0.465577 hartree
+  MO 0140 (vir) 0.483128 hartree
+  MO 0141 (vir) 0.505171 hartree
+  MO 0142 (vir) 0.525350 hartree
+  MO 0143 (vir) 0.533544 hartree
+  MO 0144 (vir) 0.603684 hartree
+  MO 0145 (vir) 0.612602 hartree
+  MO 0146 (vir) 0.629031 hartree
+  MO 0147 (vir) 0.634298 hartree
+  MO 0148 (vir) 0.653702 hartree
+  MO 0149 (vir) 0.665030 hartree
+  MO 0150 (vir) 0.678191 hartree
+  MO 0151 (vir) 0.685675 hartree
+  MO 0152 (vir) 0.692277 hartree
+  MO 0153 (vir) 0.705165 hartree
+  MO 0154 (vir) 0.712882 hartree
+  MO 0155 (vir) 0.715617 hartree
+  MO 0156 (vir) 0.726833 hartree
+  MO 0157 (vir) 0.744701 hartree
+  MO 0158 (vir) 0.749593 hartree
+  MO 0159 (vir) 0.764557 hartree
+  MO 0160 (vir) 0.768545 hartree
+  MO 0161 (vir) 0.771205 hartree
+  MO 0162 (vir) 0.777752 hartree
+  MO 0163 (vir) 0.785888 hartree
+  MO 0164 (vir) 0.801194 hartree
+  MO 0165 (vir) 0.810750 hartree
+  MO 0166 (vir) 0.820321 hartree
+  MO 0167 (vir) 0.825325 hartree
+  MO 0168 (vir) 0.828588 hartree
+  MO 0169 (vir) 0.832089 hartree
+  MO 0170 (vir) 0.836085 hartree
+  MO 0171 (vir) 0.840312 hartree
+  MO 0172 (vir) 0.845077 hartree
+  MO 0173 (vir) 0.850454 hartree
+  MO 0174 (vir) 0.858649 hartree
+  MO 0175 (vir) 0.875393 hartree
+  MO 0176 (vir) 0.882549 hartree
+  MO 0177 (vir) 0.890053 hartree
+  MO 0178 (vir) 0.909932 hartree
+  MO 0179 (vir) 0.917870 hartree
+  MO 0180 (vir) 0.936913 hartree
+  MO 0181 (vir) 0.947444 hartree
+  MO 0182 (vir) 0.969464 hartree
+  MO 0183 (vir) 0.996943 hartree
+  MO 0184 (vir) 1.002894 hartree
+  MO 0185 (vir) 1.029968 hartree
+  MO 0186 (vir) 1.056813 hartree
+  MO 0187 (vir) 1.069441 hartree
+  MO 0188 (vir) 1.076998 hartree
+  MO 0189 (vir) 1.095846 hartree
+  MO 0190 (vir) 1.097107 hartree
+  MO 0191 (vir) 1.104833 hartree
+  MO 0192 (vir) 1.106310 hartree
+  MO 0193 (vir) 1.120987 hartree
+  MO 0194 (vir) 1.123232 hartree
+  MO 0195 (vir) 1.127800 hartree
+  MO 0196 (vir) 1.133235 hartree
+  MO 0197 (vir) 1.140630 hartree
+  MO 0198 (vir) 1.147366 hartree
+  MO 0199 (vir) 1.156814 hartree
+  MO 0200 (vir) 1.169355 hartree
+  MO 0201 (vir) 1.172014 hartree
+  MO 0202 (vir) 1.175336 hartree
+  MO 0203 (vir) 1.177935 hartree
+  MO 0204 (vir) 1.185021 hartree
+  MO 0205 (vir) 1.188771 hartree
+  MO 0206 (vir) 1.194037 hartree
+  MO 0207 (vir) 1.205190 hartree
+  MO 0208 (vir) 1.210024 hartree
+  MO 0209 (vir) 1.216092 hartree
+  MO 0210 (vir) 1.217237 hartree
+  MO 0211 (vir) 1.225742 hartree
+  MO 0212 (vir) 1.236979 hartree
+  MO 0213 (vir) 1.238527 hartree
+  MO 0214 (vir) 1.242542 hartree
+  MO 0215 (vir) 1.255486 hartree
+  MO 0216 (vir) 1.262982 hartree
+  MO 0217 (vir) 1.265218 hartree
+  MO 0218 (vir) 1.266739 hartree
+  MO 0219 (vir) 1.275036 hartree
+  MO 0220 (vir) 1.277612 hartree
+  MO 0221 (vir) 1.282785 hartree
+  MO 0222 (vir) 1.292595 hartree
+  MO 0223 (vir) 1.299477 hartree
+  MO 0224 (vir) 1.305240 hartree
+  MO 0225 (vir) 1.310702 hartree
+  MO 0226 (vir) 1.318564 hartree
+  MO 0227 (vir) 1.327306 hartree
+  MO 0228 (vir) 1.332151 hartree
+  MO 0229 (vir) 1.334681 hartree
+  MO 0230 (vir) 1.340058 hartree
+  MO 0231 (vir) 1.349832 hartree
+  MO 0232 (vir) 1.353497 hartree
+  MO 0233 (vir) 1.362783 hartree
+  MO 0234 (vir) 1.369591 hartree
+  MO 0235 (vir) 1.375473 hartree
+  MO 0236 (vir) 1.381946 hartree
+  MO 0237 (vir) 1.383890 hartree
+  MO 0238 (vir) 1.386954 hartree
+  MO 0239 (vir) 1.401087 hartree
+  MO 0240 (vir) 1.410978 hartree
+  MO 0241 (vir) 1.415700 hartree
+  MO 0242 (vir) 1.424126 hartree
+  MO 0243 (vir) 1.431159 hartree
+  MO 0244 (vir) 1.438581 hartree
+  MO 0245 (vir) 1.445383 hartree
+  MO 0246 (vir) 1.454728 hartree
+  MO 0247 (vir) 1.457047 hartree
+  MO 0248 (vir) 1.464259 hartree
+  MO 0249 (vir) 1.467938 hartree
+  MO 0250 (vir) 1.477844 hartree
+  MO 0251 (vir) 1.482946 hartree
+  MO 0252 (vir) 1.483878 hartree
+  MO 0253 (vir) 1.489095 hartree
+  MO 0254 (vir) 1.494222 hartree
+  MO 0255 (vir) 1.503021 hartree
+  MO 0256 (vir) 1.507684 hartree
+  MO 0257 (vir) 1.510148 hartree
+  MO 0258 (vir) 1.517057 hartree
+  MO 0259 (vir) 1.521954 hartree
+  MO 0260 (vir) 1.527679 hartree
+  MO 0261 (vir) 1.530868 hartree
+  MO 0262 (vir) 1.534197 hartree
+  MO 0263 (vir) 1.545488 hartree
+  MO 0264 (vir) 1.548276 hartree
+  MO 0265 (vir) 1.553019 hartree
+  MO 0266 (vir) 1.554754 hartree
+  MO 0267 (vir) 1.560993 hartree
+  MO 0268 (vir) 1.570904 hartree
+  MO 0269 (vir) 1.575130 hartree
+  MO 0270 (vir) 1.581896 hartree
+  MO 0271 (vir) 1.588631 hartree
+  MO 0272 (vir) 1.591296 hartree
+  MO 0273 (vir) 1.595807 hartree
+  MO 0274 (vir) 1.603466 hartree
+  MO 0275 (vir) 1.606572 hartree
+  MO 0276 (vir) 1.609398 hartree
+  MO 0277 (vir) 1.622115 hartree
+  MO 0278 (vir) 1.623821 hartree
+  MO 0279 (vir) 1.636444 hartree
+  MO 0280 (vir) 1.640926 hartree
+  MO 0281 (vir) 1.642623 hartree
+  MO 0282 (vir) 1.652516 hartree
+  MO 0283 (vir) 1.659083 hartree
+  MO 0284 (vir) 1.667931 hartree
+  MO 0285 (vir) 1.673749 hartree
+  MO 0286 (vir) 1.681588 hartree
+  MO 0287 (vir) 1.687437 hartree
+  MO 0288 (vir) 1.691086 hartree
+  MO 0289 (vir) 1.708421 hartree
+  MO 0290 (vir) 1.709815 hartree
+  MO 0291 (vir) 1.713408 hartree
+  MO 0292 (vir) 1.728383 hartree
+  MO 0293 (vir) 1.730097 hartree
+  MO 0294 (vir) 1.734732 hartree
+  MO 0295 (vir) 1.740979 hartree
+  MO 0296 (vir) 1.754450 hartree
+  MO 0297 (vir) 1.761209 hartree
+  MO 0298 (vir) 1.767105 hartree
+  MO 0299 (vir) 1.772339 hartree
+  MO 0300 (vir) 1.793728 hartree
+  MO 0301 (vir) 1.816024 hartree
+  MO 0302 (vir) 1.828410 hartree
+  MO 0303 (vir) 1.842004 hartree
+  MO 0304 (vir) 1.843688 hartree
+  MO 0305 (vir) 1.855718 hartree
+  MO 0306 (vir) 1.864247 hartree
+  MO 0307 (vir) 1.880619 hartree
+  MO 0308 (vir) 1.891945 hartree
+  MO 0309 (vir) 1.906982 hartree
+  MO 0310 (vir) 1.909718 hartree
+  MO 0311 (vir) 1.917222 hartree
+  MO 0312 (vir) 1.924166 hartree
+  MO 0313 (vir) 1.938908 hartree
+  MO 0314 (vir) 1.945743 hartree
+  MO 0315 (vir) 1.961258 hartree
+  MO 0316 (vir) 1.962594 hartree
+  MO 0317 (vir) 1.975406 hartree
+  MO 0318 (vir) 1.978268 hartree
+  MO 0319 (vir) 1.982339 hartree
+  MO 0320 (vir) 1.993769 hartree
+  MO 0321 (vir) 2.004528 hartree
+  MO 0322 (vir) 2.012464 hartree
+  MO 0323 (vir) 2.021409 hartree
+  MO 0324 (vir) 2.024620 hartree
+  MO 0325 (vir) 2.031154 hartree
+  MO 0326 (vir) 2.045834 hartree
+  MO 0327 (vir) 2.053341 hartree
+  MO 0328 (vir) 2.060505 hartree
+  MO 0329 (vir) 2.075828 hartree
+  MO 0330 (vir) 2.118341 hartree
+  MO 0331 (vir) 2.125509 hartree
+  MO 0332 (vir) 2.134177 hartree
+  MO 0333 (vir) 2.138461 hartree
+  MO 0334 (vir) 2.151572 hartree
+  MO 0335 (vir) 2.165570 hartree
+  MO 0336 (vir) 2.179225 hartree
+  MO 0337 (vir) 2.186833 hartree
+  MO 0338 (vir) 2.217221 hartree
+  MO 0339 (vir) 2.247513 hartree
+  MO 0340 (vir) 2.274192 hartree
+  MO 0341 (vir) 2.307773 hartree
+  MO 0342 (vir) 2.380286 hartree
+  MO 0343 (vir) 2.388657 hartree
+  MO 0344 (vir) 2.393062 hartree
+  MO 0345 (vir) 2.394636 hartree
+  MO 0346 (vir) 2.401081 hartree
+  MO 0347 (vir) 2.408303 hartree
+  MO 0348 (vir) 2.436714 hartree
+  MO 0349 (vir) 2.446236 hartree
+  MO 0350 (vir) 2.465643 hartree
+  MO 0351 (vir) 2.487491 hartree
+  MO 0352 (vir) 2.513683 hartree
+  MO 0353 (vir) 2.515230 hartree
+  MO 0354 (vir) 2.526640 hartree
+  MO 0355 (vir) 2.540835 hartree
+  MO 0356 (vir) 2.561302 hartree
+  MO 0357 (vir) 2.574284 hartree
+  MO 0358 (vir) 2.588757 hartree
+  MO 0359 (vir) 2.594492 hartree
+  MO 0360 (vir) 2.599958 hartree
+  MO 0361 (vir) 2.608753 hartree
+  MO 0362 (vir) 2.630761 hartree
+  MO 0363 (vir) 2.649027 hartree
+  MO 0364 (vir) 2.666679 hartree
+  MO 0365 (vir) 2.684967 hartree
+  MO 0366 (vir) 2.690190 hartree
+  MO 0367 (vir) 2.695816 hartree
+  MO 0368 (vir) 2.699567 hartree
+  MO 0369 (vir) 2.712696 hartree
+  MO 0370 (vir) 2.737823 hartree
+  MO 0371 (vir) 2.745267 hartree
+  MO 0372 (vir) 2.756984 hartree
+  MO 0373 (vir) 2.760900 hartree
+  MO 0374 (vir) 2.768512 hartree
+  MO 0375 (vir) 2.801740 hartree
+  MO 0376 (vir) 2.846945 hartree
+  MO 0377 (vir) 2.866667 hartree
+  MO 0378 (vir) 2.886283 hartree
+  MO 0379 (vir) 2.912217 hartree
+  MO 0380 (vir) 2.996334 hartree
+  MO 0381 (vir) 3.029534 hartree
+  MO 0382 (vir) 3.065842 hartree
+  MO 0383 (vir) 3.201214 hartree
+  MO 0384 (vir) 3.202849 hartree
+  MO 0385 (vir) 3.217993 hartree
+  MO 0386 (vir) 3.220766 hartree
+  MO 0387 (vir) 3.221634 hartree
+  MO 0388 (vir) 3.229495 hartree
+  MO 0389 (vir) 3.235897 hartree
+  MO 0390 (vir) 3.237155 hartree
+  MO 0391 (vir) 3.240971 hartree
+  MO 0392 (vir) 3.246067 hartree
+  MO 0393 (vir) 3.252204 hartree
+  MO 0394 (vir) 3.256113 hartree
+  MO 0395 (vir) 3.261599 hartree
+  MO 0396 (vir) 3.263215 hartree
+  MO 0397 (vir) 3.268618 hartree
+  MO 0398 (vir) 3.272789 hartree
+  MO 0399 (vir) 3.276784 hartree
+  MO 0400 (vir) 3.279298 hartree
+  MO 0401 (vir) 3.282658 hartree
+  MO 0402 (vir) 3.284718 hartree
+  MO 0403 (vir) 3.286534 hartree
+  MO 0404 (vir) 3.291720 hartree
+  MO 0405 (vir) 3.300175 hartree
+  MO 0406 (vir) 3.301820 hartree
+  MO 0407 (vir) 3.303298 hartree
+  MO 0408 (vir) 3.304942 hartree
+  MO 0409 (vir) 3.310447 hartree
+  MO 0410 (vir) 3.314177 hartree
+  MO 0411 (vir) 3.319214 hartree
+  MO 0412 (vir) 3.324182 hartree
+  MO 0413 (vir) 3.338215 hartree
+  MO 0414 (vir) 3.340414 hartree
+  MO 0415 (vir) 3.349501 hartree
+  MO 0416 (vir) 3.355045 hartree
+  MO 0417 (vir) 3.358276 hartree
+  MO 0418 (vir) 3.364289 hartree
+  MO 0419 (vir) 3.370701 hartree
+  MO 0420 (vir) 3.389485 hartree
+  MO 0421 (vir) 3.418382 hartree
+  MO 0422 (vir) 3.432115 hartree
+  MO 0423 (vir) 3.439497 hartree
+  MO 0424 (vir) 3.448346 hartree
+  MO 0425 (vir) 3.458522 hartree
+  MO 0426 (vir) 3.467007 hartree
+  MO 0427 (vir) 3.470807 hartree
+  MO 0428 (vir) 3.478587 hartree
+  MO 0429 (vir) 3.481037 hartree
+  MO 0430 (vir) 3.481990 hartree
+  MO 0431 (vir) 3.486486 hartree
+  MO 0432 (vir) 3.489420 hartree
+  MO 0433 (vir) 3.494433 hartree
+  MO 0434 (vir) 3.500670 hartree
+  MO 0435 (vir) 3.511073 hartree
+  MO 0436 (vir) 3.515869 hartree
+  MO 0437 (vir) 3.517689 hartree
+  MO 0438 (vir) 3.528074 hartree
+  MO 0439 (vir) 3.534081 hartree
+  MO 0440 (vir) 3.540636 hartree
+  MO 0441 (vir) 3.566645 hartree
+  MO 0442 (vir) 3.698394 hartree
+  MO 0443 (vir) 3.757856 hartree
+  MO 0444 (vir) 3.759512 hartree
+  MO 0445 (vir) 3.781467 hartree
+  MO 0446 (vir) 3.788753 hartree
+  MO 0447 (vir) 3.796586 hartree
+  MO 0448 (vir) 3.808947 hartree
+  MO 0449 (vir) 3.816897 hartree
+  MO 0450 (vir) 3.827355 hartree
+  MO 0451 (vir) 3.838320 hartree
+  MO 0452 (vir) 3.864307 hartree
+  MO 0453 (vir) 3.880972 hartree
+  MO 0454 (vir) 3.895957 hartree
+  MO 0455 (vir) 3.901156 hartree
+  MO 0456 (vir) 3.932503 hartree
+  MO 0457 (vir) 3.977653 hartree
+  MO 0458 (vir) 4.013873 hartree
+  MO 0459 (vir) 4.065833 hartree
+  MO 0460 (vir) 4.088867 hartree
+  MO 0461 (vir) 4.091041 hartree
+  MO 0462 (vir) 4.123272 hartree
+  MO 0463 (vir) 4.134100 hartree
+  MO 0464 (vir) 4.150350 hartree
+  MO 0465 (vir) 4.170159 hartree
+  MO 0466 (vir) 4.174922 hartree
+  MO 0467 (vir) 4.189563 hartree
+  MO 0468 (vir) 4.189674 hartree
+  MO 0469 (vir) 4.207938 hartree
+  MO 0470 (vir) 4.217943 hartree
+  MO 0471 (vir) 4.221496 hartree
+  MO 0472 (vir) 4.223888 hartree
+  MO 0473 (vir) 4.256101 hartree
+  MO 0474 (vir) 4.264645 hartree
+  MO 0475 (vir) 4.308379 hartree
+  MO 0476 (vir) 4.353686 hartree
+  MO 0477 (vir) 4.375132 hartree
+  MO 0478 (vir) 4.388431 hartree
+  MO 0479 (vir) 4.473276 hartree
+  MO 0480 (vir) 4.581903 hartree
+  MO 0481 (vir) 5.944821 hartree
+  MO 0482 (vir) 6.015792 hartree
+  MO 0483 (vir) 6.056566 hartree
+  MO 0484 (vir) 6.062034 hartree
+  MO 0485 (vir) 6.076707 hartree
+  MO 0486 (vir) 6.103338 hartree
+  MO 0487 (vir) 6.107142 hartree
+  MO 0488 (vir) 6.145489 hartree
+  MO 0489 (vir) 6.178878 hartree
+  MO 0490 (vir) 6.211082 hartree
+  MO 0491 (vir) 6.221280 hartree
+  MO 0492 (vir) 6.238533 hartree
+  MO 0493 (vir) 6.254312 hartree
+  MO 0494 (vir) 6.283445 hartree
+  MO 0495 (vir) 6.299980 hartree
+  MO 0496 (vir) 6.324795 hartree
+  MO 0497 (vir) 6.341077 hartree
+  MO 0498 (vir) 6.392563 hartree
+  MO 0499 (vir) 6.414437 hartree
+  MO 0500 (vir) 6.546583 hartree
+
+[Calculation Summary]
+Method: Restricted Hartree-Fock (RHF)
+Schwarz screening threshold: 1.00e-12
+Initial guess method: core
+Convergence algorithm: DIIS (diis_size: 8, diis_include_transform: false)
+Number of iterations: 53
+Convergence criterion: 1.00e-06
+Energy difference: 4.20e-08
+Energy (without nuclear repulsion): -3802.55262956675142050 [hartree]
+Total Energy: -1519.66703340679896428 [hartree]
+Computing time: 83981 [ms]

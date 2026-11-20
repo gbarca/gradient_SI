@@ -1,0 +1,227 @@
+basis = def2-TZVP (spherical)
+number of AOs = 430
+number of atoms = 30
+Thresholds: e_convergence 1.0e-06, schwarz 1.00e-11, pq 1.00e-11, incremental_fock True
+
+==> cuEST RHF (Python) <==
+
+natom               =          30
+charge              =           0
+
+Primary Basis: def2-TZVP
+
+AOBasis:
+
+natom               =          30
+nshell              =         190
+nao                 =         430
+ncart               =         480
+nprimitive          =         320
+max_L               =           3
+is_pure             =        True
+is_cart             =       False
+is_mixed            =       False
+
+Auxiliary Basis: def2-universal-jkfit
+
+AOBasis:
+
+natom               =          30
+nshell              =         370
+nao                 =        1130
+ncart               =        1330
+nprimitive          =         490
+max_L               =           4
+is_pure             =        True
+is_cart             =       False
+is_mixed            =       False
+
+MinAO Basis: minao-1
+
+AOBasis:
+
+natom               =          30
+nshell              =          50
+nao                 =          70
+ncart               =          70
+nprimitive          =         440
+max_L               =           1
+is_pure             =        True
+is_cart             =       False
+is_mixed            =       False
+
+XCIntPlan:
+
+collocation         =   1.000E-18
+
+XCIntPlan Density Functional:
+
+XC brief            = Hartree-Fock
+citation            = J. C. Slater, Phys. Rev., 81, 385 (1951)
+functional          = HF
+hf scale            =       1.000
+lrc scale           =       0.000
+vv10 scale          =       0.000
+
+XC Grid:
+
+MolecularGrid:
+
+scheme name         =       GRID2
+natom               =          30
+atomic max npoint   =        3300
+radial max npoint   =          30
+angular max npoint  =         194
+total npoint        =       67840
+
+Nonlocal XCIntPlan:
+
+collocation         =   1.000E-18
+
+Nonlocal XC Grid:
+
+MolecularGrid:
+
+scheme name         =       GRID1
+natom               =          30
+atomic max npoint   =        1742
+radial max npoint   =          25
+angular max npoint  =         110
+total npoint        =       33100
+
+Fock Method: Direct-J / Direct-K (integral-direct 4-center, incremental)
+
+threshold_pq        =   1.000E-11
+
+DirectIntPlan:
+
+schwarz threshold   =   1.000E-11
+
+Orthogonalization:
+
+threshold_canonical =   1.000E-06
+nao                 =         430
+nmo                 =         430
+ndiscard            =           0
+
+Occupations:
+
+nocc                =          50
+nvir                =         380
+
+=> Solve DIIS <=
+
+Enuc                =   6.8227668081835338E+02
+
+DIIS:
+
+max nvector         =           6
+CPU                 =       False
+
+Convergence Options:
+
+max iterations      =          15
+g convergence       =   1.000E-06
+level shift         =       0.000
+
+Iter:                   Energy          dE          dG  Time[s]
+   0:  -7.5559833601928153E+02  -7.556E+02   1.206E+00    0.221
+   1:  -7.6032065968471034E+02  -4.722E+00   4.885E-02    0.593
+   2:  -7.6057269272068220E+02  -2.520E-01   3.249E-02    0.561
+   3:  -7.6064425930300126E+02  -7.157E-02   3.352E-03    0.528
+   4:  -7.6064701996392978E+02  -2.761E-03   7.945E-04    0.494
+   5:  -7.6064720561075569E+02  -1.856E-04   2.154E-04    0.446
+   6:  -7.6064722319692726E+02  -1.759E-05   1.350E-04    0.408
+   7:  -7.6064722652090347E+02  -3.324E-06   2.366E-05    0.379
+   8:  -7.6064722664148246E+02  -1.206E-07   5.214E-06    0.605
+
+SCF Converged
+
+SCF Energy          =  -7.6064722664148246E+02
+
+=> End Solve DIIS <=
+
+cuEST RHF Time:   4.537E+00 [s]
+
+cuEST RHF Timing breakdown:
+
+key                            count    time [s]
+solve                              1   4.537E+00
+primary_basis                      1   1.941E-03
+auxiliary_basis                    1   2.695E-03
+xc_grid                            1   6.822E-03
+nlc_grid                           1   3.564E-03
+ao_pair_list                       1   1.176E-02
+oe_int_plan                        1   1.881E-03
+xc_int_plan                        1   5.721E-03
+df_int_plan                        1   7.136E-06
+gridk_grid                         1   5.472E-06
+gridk_int_plan                     1   5.088E-06
+direct_int_plan                    1   1.563E-03
+nlc_int_plan                       1   2.729E-03
+pcm_int_plan                       1   7.264E-06
+ecp_int_plan                       1   5.024E-06
+guess                              1   2.242E-02
+orthogonalize                      1   1.698E-01
+S                                  1   1.066E-01
+occupations                        1   1.075E-04
+solve_diis                         1   4.305E+00
+PCM                               10   2.765E-05
+Enuc                               1   4.068E-03
+T                                  1   1.603E-03
+V                                  1   6.330E-02
+Vecp                               1   3.200E-06
+Hcore                              1   5.133E-04
+J                                  9   1.915E+00
+K                                  9   2.255E+00
+Vxc                                9   4.608E-05
+VV10                               9   6.698E-05
+F                                 27   2.958E-03
+E                                  9   1.228E-03
+orbital_gradient                   9   7.938E-03
+DIIS                               8   4.890E-03
+orbital_update                     8   4.236E-02
+diagonalize                        8   3.530E-02
+
+==> End cuEST RHF (Python) <==
+
+
+E HF = -760.647226641482462
+SCF wall time                 4.54 sec
+cuEST RHF Gradient Time:   1.604E+00 [s]
+
+
+Gradient wall time                 1.60 sec
+Total processing time                11.58 sec
+
+Total nuclear gradient (Eh/bohr):
+0 H 0.010575737144 -0.030668738033 -0.005552916955
+1 O 0.006033641113 0.056623160434 -0.003041847421
+2 H -0.021049985423 -0.021031412830 0.008602167346
+3 H -0.017215808646 0.002597239937 0.026509334482
+4 O 0.039802540163 0.020924236698 -0.033072758539
+5 H -0.016101311156 -0.028938234218 0.001854689647
+6 H 0.022093479341 0.016679672623 0.025209542334
+7 O -0.049207016603 0.000326848392 -0.036965260840
+8 H 0.026038112927 -0.018160775336 0.013942014747
+9 H -0.026559477780 -0.015755467908 0.012643063708
+10 O 0.054781330809 0.009255640092 -0.006157953995
+11 H -0.025476604451 0.011775462922 -0.008545206272
+12 H -0.020479508177 -0.022220667778 -0.014327096704
+13 O 0.020971595126 0.033332700335 0.041699336501
+14 H 0.006014135193 -0.008264672836 -0.025064991698
+15 H 0.021795778852 0.001310922185 0.022423693984
+16 O -0.037498085111 0.025255240288 -0.029675639078
+17 H 0.010280081009 -0.032404156820 0.001715499735
+18 H 0.015905140003 0.024516353039 -0.009620040657
+19 O -0.030578244089 -0.040888206117 -0.011109599947
+20 H 0.013409639352 0.012337760780 0.027993208325
+21 H 0.015399139547 -0.004939764935 0.032045228493
+22 O -0.000159970979 -0.006577893663 -0.059652347254
+23 H -0.020332460944 0.007452972670 0.030642710610
+24 H 0.025134441860 0.020919520227 0.002279418638
+25 O -0.033020182976 -0.034614059896 0.030021756812
+26 H 0.008260186203 0.020353820424 -0.030931535488
+27 H -0.025157541563 0.012759829678 -0.023589038389
+28 O 0.018501421077 -0.039430867436 0.040888657367
+29 H 0.007839798180 0.027473537080 -0.021164089492

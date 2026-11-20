@@ -1,0 +1,179 @@
+
+                 _..--+~/@-~--.      _____  __  __  _____   ____    ____
+             _-=~      (  .   "}    | ____| \ \/ / | ____| / ___|  / ___|
+          _-~     _.--=.\ \""""     |  _|    \  /  |  _|   \___ \  \___ \
+        _~      _-       \ \_\      | |___   /  \  | |___   ___) |  ___) |
+       =      _=          '--'      |_____| /_/\_\ |_____| |____/  |____/
+      '      =
+     :      :     ____            EXtreme-scale Electronic Structure System
+___ |      ;                               Enjoy the power of GPUs!
+    ;       ;                            Gordon Bell Award Winner 2024
+  ___=       \ ___ __     __..-...__
+     :        =_     _.-~~          ~~--.__
+_____ \         ~-+-~                   ___~=_______
+       == ...______ __ ___ _--~~--_
+  
+
+------------------------------------------------------------------------------
+
+    * Giuseppe Barca         * Hamish Brown           * Jorge Galvez-Vallejo
+    * Andrew Gilbert         * Min Htoo               * Fazeleh Kazemian    
+    * Sean Laguna            * Jack Miller            * Elise Palethorpe    
+    * Oliver Pulsford        * Ross Pure              * Christopher Seidl   
+    * Dylan Silke            * Joshua Singla          * Calum Snowdon       
+    * Ryan Stocks            * Ryan Swart             * Fiona Yu            
+
+------------------------------------------------------------------------------
+
+Commit no. used 0fc026e0b40bf65f83355abcfcdeb9caca1919af
+Start of Calculation Local time: 2026-09-30 16:27:06
+Start of Calculation UTC time:   2026-09-30 06:27:06
+├── Calculation params
+│   ├── Title: cc-pVTZ_gly5
+│   ├── Driver: Gradient
+│   ├── Model
+│   │   ├── Theory level: HF
+│   │   ├── Spin configuration: Restricted
+│   │   ├── Primary basis: cc-pVTZ
+│   │   ├── Auxiliary basis: cc-pVTZ-RIFIT
+│   │   ├── Basis set type: Spherical
+│   │   ├── Standard orientation: None
+│   ├── Keywords
+│   │   ├── SCF keywords
+│   │   │   ├── Max iterations: 20
+│   │   │   ├── DIIS size: 8
+│   │   │   ├── Convergence threshold: 1.000e-06
+│   │   │   ├── Convergence metric: Energy
+│   │   │   ├── Screening threshold: 1.000e-11
+│   │   │   ├── Gradient screening threshold: 1.000e-11
+│   │   │   ├── Allow crap scf: False
+│   │   │   ├── Fock build type: RI
+│   │   │   ├── Store RI B tensor on host: False
+│   │   │   ├── Compress B tensor shell pairs: False
+│   │   │   ├── Allow diagonal shift regularization when computing RI J_PQ^{-1/2}: True
+│   │   ├── RTAT keywords
+│   │   │   ├── Enabled: True
+│   │   ├── Integrals Keywords
+│   │   │   ├── Scheduler: Callback
+│   │   │   ├── Number of streams: 4
+│   ├── System
+│   │   ├── Max GPU Memory: 120 GB
+
+************************************************************
+****************** Beginning RI-HF energy ******************
+************************************************************
+
+SCF parameters:
+  # primary basis functions:             868
+  # primary cartesian basis functions:   990
+  Fock build method:                     RI
+  # auxiliary basis functions:           2211
+  B compression:                         false
+  B on host:                             false
+  # occupied orbitals:                   80
+  # atoms:                               38
+  Density threshold:                     1.0e-11
+  Convergence metric:                    Energy
+   - Convergence threshold:              1.0e-06
+  Max # SCF iterations:                  20
+  DIIS history length:                   8
+  Use GPU:                               true
+
+One electron integrals and orthogonalizer took 0.271494s
+3C integrals and B formation took 0.227119s
+Iteration |      Energy      | Energy Metric  | Fock Time (s) | DIIS Time (s)
+----------+------------------+----------------+---------------+--------------
+    1     | -1117.2649505321 |   1.1173e+03   |    0.1189     |    0.0259
+    2     | -1109.8967648957 |   7.3682e+00   |    0.0181     |    0.0119
+    3     | -1110.2094485599 |   3.1268e-01   |    0.0274     |    0.0101
+    4     | -1110.4465354142 |   2.3709e-01   |    0.0197     |    0.0099
+    5     | -1110.4559281022 |   9.3927e-03   |    0.0292     |    0.0100
+    6     | -1110.4568184870 |   8.9038e-04   |    0.0177     |    0.0101
+    7     | -1110.4570368489 |   2.1836e-04   |    0.0178     |    0.0102
+    8     | -1110.4570844709 |   4.7622e-05   |    0.0178     |    0.0104
+    9     | -1110.4570921946 |   7.7238e-06   |    0.0178     |    0.0104
+   10     | -1110.4570930217 |   8.2704e-07   |    0.0178     |    0.0104
+=======================================================
+                   HF Energy Results                   
+=======================================================
+E HF                  -1110.45709302
+Converged:            1
+# of SCF iterations:  10
+SCF Time:             0.97319s
+************************************************************
+***************** Beginning RI-HF gradient *****************
+************************************************************
+
+=======================================================
+                  HF Gradient Results                  
+=======================================================
+
+                  x              y              z
+  0 | N  |   0.0101229364   0.0015002756  -0.0059956371 
+  1 | C  |   0.0218357895   0.0000147316   0.0053337071 
+  2 | C  |   0.0191159031  -0.0002553509  -0.0521785647 
+  3 | O  |  -0.0073942751   0.0001083750   0.0431333733 
+  4 | H  |  -0.0079071153  -0.0073810297  -0.0047882984 
+  5 | H  |  -0.0081702389   0.0065757819  -0.0044226756 
+  6 | H  |  -0.0095574338  -0.0015908919   0.0257442280 
+  7 | H  |  -0.0131387361   0.0009379222  -0.0270609484 
+  8 | N  |  -0.0245306481   0.0000893269   0.0308263956 
+  9 | C  |   0.0004129227  -0.0009860560   0.0034776561 
+ 10 | C  |  -0.0439581200   0.0001243196   0.0337255995 
+ 11 | O  |   0.0378765334  -0.0000763631  -0.0179652509 
+ 12 | H  |  -0.0041721634   0.0104972096  -0.0015012698 
+ 13 | H  |  -0.0038557722  -0.0096572057  -0.0018016842 
+ 14 | H  |   0.0132958467   0.0001094740  -0.0172280201 
+ 15 | N  |   0.0235739994  -0.0000513510  -0.0311456575 
+ 16 | C  |   0.0024630328   0.0010231262  -0.0003864777 
+ 17 | C  |   0.0170953556  -0.0001288013  -0.0543149926 
+ 18 | O  |  -0.0042715548   0.0000745135   0.0430286079 
+ 19 | H  |  -0.0027216846  -0.0104936096  -0.0034824206 
+ 20 | H  |  -0.0028954615   0.0096484850  -0.0030833341 
+ 21 | H  |  -0.0113602253  -0.0000969316   0.0177789048 
+ 22 | N  |  -0.0214185658   0.0000527718   0.0333495697 
+ 23 | C  |   0.0005531561  -0.0010141175   0.0021917503 
+ 24 | C  |  -0.0438829535   0.0001375169   0.0352655616 
+ 25 | O  |   0.0382282111  -0.0000807222  -0.0190468459 
+ 26 | H  |  -0.0042288894   0.0104964164  -0.0013909084 
+ 27 | H  |  -0.0039163582  -0.0096582162  -0.0016821804 
+ 28 | H  |   0.0128665740   0.0000965598  -0.0167443783 
+ 29 | N  |   0.0233326369  -0.0000551595  -0.0305735380 
+ 30 | C  |   0.0079639965   0.0010114580  -0.0030177825 
+ 31 | C  |   0.0221873438  -0.0001160784  -0.0527189236 
+ 32 | O  |  -0.0541818630   0.0000851731   0.0723402579 
+ 33 | H  |  -0.0032793305  -0.0098160579  -0.0039641142 
+ 34 | H  |  -0.0034479403   0.0089754665  -0.0035738764 
+ 35 | H  |  -0.0110825536  -0.0000905647   0.0180730705 
+ 36 | O  |  -0.0300310871   0.0000477262   0.0633077231 
+ 37 | H  |   0.0684787324  -0.0000581227  -0.0695086260 
+
+
+
+Timings:
+
+  Total gradient time:   0.928714s
+
+=======================================================
+            Individual Calculation Summary             
+=======================================================
+HF Energy: -1110.4570930216546003
+=======================================================
+
+
+Topology 0 time: 2.177748 s, performance: SP: 0 FLOP/s, DP: 5.103 TFLOP/s
+Total flops: SP: 0 FLOPS, DP: 11.066004 TFLOPS
+Performance: SP: 0 FLOP/s, DP: 4.786 TFLOP/s
+
+Now, a word from our developers... 
+ Matcha must be consumed, don't try to store it for later, it will oxidize
+
+Please cite the following papers for the methods used in this calculation:
+ - J.L. Galvez Vallejo et. al., Toward an extreme-scale electronic structure system, J. Chem. Phys., 2023. DOI: 10.1063/5.0156399
+
+ - R. Stocks, E. Palethorpe, and G.M.J. Barca, Multi-GPU RI-HF Energies and Analytic Gradients ─ Toward High-Throughput Ab Initio Molecular Dynamics, J. Chem. Theory Comput., 2024. DOI: 10.1021/acs.jctc.4c00877
+   For:
+     * RI-HF energy
+     * RI-HF gradient
+
+Total processing time 4.539172 seconds

@@ -1,0 +1,894 @@
+GPU detected: NVIDIA H200 (Compute Capability 9.0)
+CUDA Runtime Version: 12.9.0
+CUDA Driver Version: 13.0.0
+cuBLAS Version: 12.9.0
+cuSOLVER Version: 11.7.4
+Message: Post-HF method is not selected.
+[RI] Auxiliary basis: 1920 functions
+[INT1E] One electron integrals are computed using the Hybrid method.
+[[32m00:00.000[0m] START: compute_nuclear_repulsion_energy
+[[32m00:00.000[0m] END:   compute_nuclear_repulsion_energy after 0.024 ms
+[[32m00:00.000[0m] START: compute_core_hamiltonian_matrix
+[[32m00:00.007[0m] END:   compute_core_hamiltonian_matrix after 7.365 ms
+[[32m00:00.007[0m] START: precompute_eri_matrix
+[RI] Computing 2-center ERIs (Naux=1920)...
+[RI] 2-center ERIs done.
+[RI] Cholesky decomposition...
+[RI] Computing 3-center ERIs (Naux=1920, Nbasis=500)...
+[RI] 3-center ERIs done.
+[RI] Building B matrix (L^-1 * 3c-ERI)...
+[RI] B matrix done.
+[[32m00:00.216[0m] END:   precompute_eri_matrix after 208.74 ms
+[[32m00:00.216[0m] START: compute_transform_matrix
+[[32m00:00.244[0m] END:   compute_transform_matrix after 28.629 ms
+[[32m00:00.244[0m] START: guess_initial_fock_matrix
+[[32m00:00.250[0m] START: compute_density_matrix
+[[32m00:00.250[0m] END:   compute_density_matrix after 0.091 ms
+[[32m00:00.250[0m] START: compute_fock_matrix
+[[32m00:00.258[0m] END:   compute_fock_matrix after 8.645 ms
+[[32m00:00.258[0m] END:   guess_initial_fock_matrix after 14.044 ms
+[[31m00:00.258[0m] SCF Iteration 0
+[[32m00:00.258[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.267[0m] END:   compute_coefficient_matrix_impl after 8.364 ms
+[[32m00:00.267[0m] START: compute_density_matrix
+[[32m00:00.267[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:00.267[0m] START: compute_fock_matrix
+[[32m00:00.273[0m] END:   compute_fock_matrix after 6.302 ms
+[[32m00:00.273[0m] START: compute_energy
+[[32m00:00.274[0m] END:   compute_energy after 0.586 ms
+---- Iteration: 0 ----  Energy: -2778.8745324795209 Total energy: -495.98877199349226 
+[[32m00:00.274[0m] START: update_fock_matrix
+[[32m00:00.275[0m] END:   update_fock_matrix after 0.806 ms
+[[31m00:00.275[0m] SCF Iteration 1
+[[32m00:00.275[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.281[0m] END:   compute_coefficient_matrix_impl after 6.329 ms
+[[32m00:00.281[0m] START: compute_density_matrix
+[[32m00:00.281[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:00.281[0m] START: compute_fock_matrix
+[[32m00:00.287[0m] END:   compute_fock_matrix after 6.299 ms
+[[32m00:00.287[0m] START: compute_energy
+[[32m00:00.287[0m] END:   compute_energy after 0.052 ms
+---- Iteration: 1 ----  Energy: -2662.4408374370141 Total energy: -379.55507695098549 Energy difference: 116.433695 
+[[32m00:00.287[0m] START: update_fock_matrix
+[[32m00:00.294[0m] END:   update_fock_matrix after 6.507 ms
+[[31m00:00.294[0m] SCF Iteration 2
+[[32m00:00.294[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.299[0m] END:   compute_coefficient_matrix_impl after 5.267 ms
+[[32m00:00.299[0m] START: compute_density_matrix
+[[32m00:00.299[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:00.299[0m] START: compute_fock_matrix
+[[32m00:00.306[0m] END:   compute_fock_matrix after 6.297 ms
+[[32m00:00.306[0m] START: compute_energy
+[[32m00:00.306[0m] END:   compute_energy after 0.054 ms
+---- Iteration: 2 ----  Energy: -3373.8798036890867 Total energy: -1090.994043203058 Energy difference: 711.4389663 
+[[32m00:00.306[0m] START: update_fock_matrix
+[[32m00:00.307[0m] END:   update_fock_matrix after 1.451 ms
+[[31m00:00.307[0m] SCF Iteration 3
+[[32m00:00.307[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.312[0m] END:   compute_coefficient_matrix_impl after 5.216 ms
+[[32m00:00.312[0m] START: compute_density_matrix
+[[32m00:00.312[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:00.312[0m] START: compute_fock_matrix
+[[32m00:00.319[0m] END:   compute_fock_matrix after 6.293 ms
+[[32m00:00.319[0m] START: compute_energy
+[[32m00:00.319[0m] END:   compute_energy after 0.052 ms
+---- Iteration: 3 ----  Energy: -3603.4618380968955 Total energy: -1320.5760776108668 Energy difference: 229.5820344 
+[[32m00:00.319[0m] START: update_fock_matrix
+[[32m00:00.320[0m] END:   update_fock_matrix after 1.552 ms
+[[31m00:00.320[0m] SCF Iteration 4
+[[32m00:00.320[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.326[0m] END:   compute_coefficient_matrix_impl after 5.206 ms
+[[32m00:00.326[0m] START: compute_density_matrix
+[[32m00:00.326[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:00.326[0m] START: compute_fock_matrix
+[[32m00:00.332[0m] END:   compute_fock_matrix after 6.295 ms
+[[32m00:00.332[0m] START: compute_energy
+[[32m00:00.332[0m] END:   compute_energy after 0.051 ms
+---- Iteration: 4 ----  Energy: -3338.6733699280685 Total energy: -1055.7876094420399 Energy difference: 264.7884682 
+[[32m00:00.332[0m] START: update_fock_matrix
+[[32m00:00.334[0m] END:   update_fock_matrix after 1.598 ms
+[[31m00:00.334[0m] SCF Iteration 5
+[[32m00:00.334[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.339[0m] END:   compute_coefficient_matrix_impl after 5.204 ms
+[[32m00:00.339[0m] START: compute_density_matrix
+[[32m00:00.339[0m] END:   compute_density_matrix after 0.074 ms
+[[32m00:00.339[0m] START: compute_fock_matrix
+[[32m00:00.345[0m] END:   compute_fock_matrix after 6.293 ms
+[[32m00:00.345[0m] START: compute_energy
+[[32m00:00.345[0m] END:   compute_energy after 0.051 ms
+---- Iteration: 5 ----  Energy: -3759.6367931850737 Total energy: -1476.751032699045 Energy difference: 420.9634233 
+[[32m00:00.345[0m] START: update_fock_matrix
+[[32m00:00.347[0m] END:   update_fock_matrix after 1.705 ms
+[[31m00:00.347[0m] SCF Iteration 6
+[[32m00:00.347[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.352[0m] END:   compute_coefficient_matrix_impl after 5.229 ms
+[[32m00:00.352[0m] START: compute_density_matrix
+[[32m00:00.352[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:00.352[0m] START: compute_fock_matrix
+[[32m00:00.359[0m] END:   compute_fock_matrix after 6.283 ms
+[[32m00:00.359[0m] START: compute_energy
+[[32m00:00.359[0m] END:   compute_energy after 0.05 ms
+---- Iteration: 6 ----  Energy: -3798.3001314073831 Total energy: -1515.4143709213545 Energy difference: 38.66333822 
+[[32m00:00.359[0m] START: update_fock_matrix
+[[32m00:00.360[0m] END:   update_fock_matrix after 1.857 ms
+[[31m00:00.360[0m] SCF Iteration 7
+[[32m00:00.360[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.367[0m] END:   compute_coefficient_matrix_impl after 6.564 ms
+[[32m00:00.367[0m] START: compute_density_matrix
+[[32m00:00.367[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:00.367[0m] START: compute_fock_matrix
+[[32m00:00.373[0m] END:   compute_fock_matrix after 6.286 ms
+[[32m00:00.373[0m] START: compute_energy
+[[32m00:00.373[0m] END:   compute_energy after 0.054 ms
+---- Iteration: 7 ----  Energy: -3802.7519136271085 Total energy: -1519.8661531410798 Energy difference: 4.45178222 
+[[32m00:00.373[0m] START: update_fock_matrix
+[[32m00:00.375[0m] END:   update_fock_matrix after 2.039 ms
+[[31m00:00.375[0m] SCF Iteration 8
+[[32m00:00.375[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.381[0m] END:   compute_coefficient_matrix_impl after 5.22 ms
+[[32m00:00.381[0m] START: compute_density_matrix
+[[32m00:00.381[0m] END:   compute_density_matrix after 0.074 ms
+[[32m00:00.381[0m] START: compute_fock_matrix
+[[32m00:00.387[0m] END:   compute_fock_matrix after 6.276 ms
+[[32m00:00.387[0m] START: compute_energy
+[[32m00:00.387[0m] END:   compute_energy after 0.051 ms
+---- Iteration: 8 ----  Energy: -3803.6320054922894 Total energy: -1520.7462450062608 Energy difference: 0.8800918652 
+[[32m00:00.387[0m] START: update_fock_matrix
+[[32m00:00.389[0m] END:   update_fock_matrix after 2.016 ms
+[[31m00:00.389[0m] SCF Iteration 9
+[[32m00:00.389[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.394[0m] END:   compute_coefficient_matrix_impl after 5.229 ms
+[[32m00:00.394[0m] START: compute_density_matrix
+[[32m00:00.394[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:00.394[0m] START: compute_fock_matrix
+[[32m00:00.401[0m] END:   compute_fock_matrix after 6.285 ms
+[[32m00:00.401[0m] START: compute_energy
+[[32m00:00.401[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 9 ----  Energy: -3803.670569475446 Total energy: -1520.7848089894173 Energy difference: 0.03856398316 
+[[32m00:00.401[0m] START: update_fock_matrix
+[[32m00:00.403[0m] END:   update_fock_matrix after 2.205 ms
+[[31m00:00.403[0m] SCF Iteration 10
+[[32m00:00.403[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.408[0m] END:   compute_coefficient_matrix_impl after 5.243 ms
+[[32m00:00.408[0m] START: compute_density_matrix
+[[32m00:00.408[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:00.408[0m] START: compute_fock_matrix
+[[32m00:00.415[0m] END:   compute_fock_matrix after 6.288 ms
+[[32m00:00.415[0m] START: compute_energy
+[[32m00:00.415[0m] END:   compute_energy after 0.052 ms
+---- Iteration: 10 ----  Energy: -3803.6824313435118 Total energy: -1520.7966708574832 Energy difference: 0.01186186807 
+[[32m00:00.415[0m] START: update_fock_matrix
+[[32m00:00.417[0m] END:   update_fock_matrix after 2.484 ms
+[[31m00:00.417[0m] SCF Iteration 11
+[[32m00:00.417[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.422[0m] END:   compute_coefficient_matrix_impl after 5.248 ms
+[[32m00:00.422[0m] START: compute_density_matrix
+[[32m00:00.423[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:00.423[0m] START: compute_fock_matrix
+[[32m00:00.429[0m] END:   compute_fock_matrix after 6.287 ms
+[[32m00:00.429[0m] START: compute_energy
+[[32m00:00.429[0m] END:   compute_energy after 0.053 ms
+---- Iteration: 11 ----  Energy: -3803.6838472331474 Total energy: -1520.7980867471188 Energy difference: 0.001415889636 
+[[32m00:00.429[0m] START: update_fock_matrix
+[[32m00:00.431[0m] END:   update_fock_matrix after 2.015 ms
+[[31m00:00.431[0m] SCF Iteration 12
+[[32m00:00.431[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.436[0m] END:   compute_coefficient_matrix_impl after 5.255 ms
+[[32m00:00.436[0m] START: compute_density_matrix
+[[32m00:00.436[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:00.436[0m] START: compute_fock_matrix
+[[32m00:00.443[0m] END:   compute_fock_matrix after 6.286 ms
+[[32m00:00.443[0m] START: compute_energy
+[[32m00:00.443[0m] END:   compute_energy after 0.052 ms
+---- Iteration: 12 ----  Energy: -3803.6843855490979 Total energy: -1520.7986250630693 Energy difference: 0.0005383159505 
+[[32m00:00.443[0m] START: update_fock_matrix
+[[32m00:00.445[0m] END:   update_fock_matrix after 2.011 ms
+[[31m00:00.445[0m] SCF Iteration 13
+[[32m00:00.445[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.450[0m] END:   compute_coefficient_matrix_impl after 5.232 ms
+[[32m00:00.450[0m] START: compute_density_matrix
+[[32m00:00.450[0m] END:   compute_density_matrix after 0.075 ms
+[[32m00:00.450[0m] START: compute_fock_matrix
+[[32m00:00.456[0m] END:   compute_fock_matrix after 6.28 ms
+[[32m00:00.456[0m] START: compute_energy
+[[32m00:00.456[0m] END:   compute_energy after 0.051 ms
+---- Iteration: 13 ----  Energy: -3803.6844609507275 Total energy: -1520.7987004646989 Energy difference: 7.54016296e-05 
+[[32m00:00.456[0m] START: update_fock_matrix
+[[32m00:00.458[0m] END:   update_fock_matrix after 2.037 ms
+[[31m00:00.458[0m] SCF Iteration 14
+[[32m00:00.458[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.467[0m] END:   compute_coefficient_matrix_impl after 9.142 ms
+[[32m00:00.467[0m] START: compute_density_matrix
+[[32m00:00.468[0m] END:   compute_density_matrix after 0.084 ms
+[[32m00:00.468[0m] START: compute_fock_matrix
+[[32m00:00.474[0m] END:   compute_fock_matrix after 6.296 ms
+[[32m00:00.474[0m] START: compute_energy
+[[32m00:00.474[0m] END:   compute_energy after 0.051 ms
+---- Iteration: 14 ----  Energy: -3803.68446945185 Total energy: -1520.7987089658213 Energy difference: 8.501122466e-06 
+[[32m00:00.474[0m] START: update_fock_matrix
+[[32m00:00.476[0m] END:   update_fock_matrix after 2.297 ms
+[[31m00:00.476[0m] SCF Iteration 15
+[[32m00:00.476[0m] START: compute_coefficient_matrix_impl
+[[32m00:00.482[0m] END:   compute_coefficient_matrix_impl after 5.379 ms
+[[32m00:00.482[0m] START: compute_density_matrix
+[[32m00:00.482[0m] END:   compute_density_matrix after 0.076 ms
+[[32m00:00.482[0m] START: compute_fock_matrix
+[[32m00:00.488[0m] END:   compute_fock_matrix after 6.286 ms
+[[32m00:00.488[0m] START: compute_energy
+[[32m00:00.488[0m] END:   compute_energy after 0.052 ms
+---- Iteration: 15 ----  Energy: -3803.6844697580314 Total energy: -1520.7987092720027 Energy difference: 3.061813914e-07 
+[[32m00:00.488[0m] START: post_process_after_scf
+[[32m00:00.488[0m] END:   post_process_after_scf after 0.001 ms
+
+[Timing Summary]
+update_fock_matrix: 32.58 microseconds total, called 15 times.
+compute_energy: 1.365 microseconds total, called 16 times.
+compute_coefficient_matrix_impl: 93.327 microseconds total, called 16 times.
+guess_initial_fock_matrix: 14.044 microseconds total, called 1 times.
+compute_fock_matrix: 109.28 microseconds total, called 17 times.
+compute_density_matrix: 1.302 microseconds total, called 17 times.
+post_process_after_scf: 0.001 microseconds total, called 1 times.
+compute_transform_matrix: 28.629 microseconds total, called 1 times.
+precompute_eri_matrix: 208.74 microseconds total, called 1 times.
+compute_core_hamiltonian_matrix: 7.365 microseconds total, called 1 times.
+compute_nuclear_repulsion_energy: 0.024 microseconds total, called 1 times.
+[[32m00:00.488[0m] START: compute_Energy_Gradient
+[[32m00:04.632[0m] END:   compute_Energy_Gradient after 4143.7 ms
+
+============================================================
+                   Energy Gradient                          
+============================================================
+00Atom000000000000000dE/dx000000000000000dE/dy000000000000000dE/dz
+000H  0-1.7157574387e-02000-1.4321089870e-0200007.0387646439e-03
+000O  001.3036801417e-0200004.4072199610e-02000-1.1532340352e-02
+000H  002.0139813287e-03000-2.9618507001e-0200005.6342363586e-03
+000H  0-2.5387864221e-0200008.0028764363e-0300007.9877745811e-03
+000O  004.0294524489e-0200009.2885884339e-03000-2.4253468418e-02
+000H  0-1.0396760539e-02000-2.3857598612e-0200001.3524699465e-02
+000H  001.4006380327e-0200002.9466507782e-02000-8.2921799587e-03
+000O  0-4.2127850872e-02000-2.8931027592e-0200002.1047782315e-02
+000H  002.5646185925e-02000-5.7405193288e-04000-1.7526959813e-02
+000H  0-1.3059138781e-0200001.4759244418e-0200002.7095153416e-02
+000O  004.0103086591e-02000-2.2049173966e-02000-1.7436425679e-02
+000H  0-2.7250654582e-0200001.5666407223e-02000-7.8335846679e-03
+000H  0-1.5430285228e-02000-4.7527804779e-03000-2.2754522556e-02
+000O  004.0323668908e-03000-5.1061828972e-0300004.5865290525e-02
+000H  001.5824463779e-0200001.5044082970e-02000-2.1383103437e-02
+000H  002.4488887732e-02000-1.4562993849e-02000-7.2223316377e-03
+000O  0-2.6180319983e-0200004.0420313560e-0200001.0135649016e-02
+000H  0-3.7973113037e-03000-2.6937235412e-0200006.0752351786e-04
+000H  001.0408567854e-0300002.3037854325e-02000-1.7896720542e-02
+000O  0-1.9801049440e-02000-3.7118675232e-0200002.2720747959e-02
+000H  002.2065284057e-0200001.0657811183e-02000-3.0749874738e-03
+000H  001.5579199131e-02000-3.5041052762e-0300003.2114889733e-02
+000O  001.9913546238e-03000-1.1813972296e-02000-5.0629529601e-02
+000H  0-1.9897464776e-0200009.4435023924e-0300002.4130779105e-02
+000H  007.9844818945e-0300003.3853615239e-0400002.3299729238e-02
+000O  0-3.1422412688e-0200002.2100700943e-02000-2.8178094805e-02
+000H  001.9936139581e-02000-1.8935233175e-0200005.2435941259e-03
+000H  009.1386542587e-03000-2.8697429034e-02000-7.3850137000e-03
+000O  0-3.2028231899e-0200002.5025180160e-02000-7.3407556854e-03
+000H  003.0134607003e-0200001.5647945190e-0300001.0418743511e-02
+000H  0-1.7446107972e-02000-1.6622381913e-02000-1.8815710058e-02
+000O  001.4751262910e-0200004.5345939209e-0200002.1295523957e-02
+000H  001.3319678864e-03000-2.5603517205e-02000-1.6790046707e-03
+000H  0-6.5803001117e-03000-1.2624055111e-0200002.3236948787e-02
+000O  002.1133802665e-0200003.9060876468e-02000-2.1415703261e-02
+000H  0-1.4060557734e-02000-2.7466718488e-02000-1.5835837243e-04
+000H  0-3.4708387630e-0400008.5117787998e-0300002.9881041696e-02
+000O  0-3.1668071451e-02000-1.1209790723e-02000-4.2922880683e-02
+000H  002.7970941129e-02000-6.4716842294e-0400001.2184444822e-02
+000H  0-1.8052793903e-0200001.4512081483e-0200001.5890840163e-02
+000O  007.3140221703e-03000-4.2577878551e-02000-1.9324204539e-02
+000H  001.2108430521e-0200002.8210495691e-02000-4.9524079174e-03
+000H  0-2.5300035908e-02000-1.6377550817e-02000-1.4451169722e-02
+000O  003.1583883641e-0200001.4602591910e-0200004.0268444247e-02
+000H  0-2.1507963844e-0300001.2071618257e-03000-2.7646155831e-02
+000H  001.3634852751e-0200002.1839500207e-0200001.1351658941e-02
+000O  0-4.1180235818e-02000-2.6027730201e-02000-4.0307323600e-03
+000H  002.6568649201e-02000-2.5800291631e-03000-1.1395202393e-02
+000H  001.0888555495e-02000-2.5561806545e-0200001.8147726308e-02
+000O  0-3.0559624510e-0200009.8623480338e-03000-3.4017290390e-02
+000H  001.5447981861e-0200001.4303816909e-0200002.3676779056e-02
+000H  001.1555863506e-0200002.7981080025e-0200005.0013015477e-03
+000O  002.9724383605e-03000-4.7113668800e-02000-9.5930458816e-03
+000H  0-1.5029133510e-0200002.2287489498e-0200004.8332000318e-03
+000H  002.9821244059e-0200001.1976954049e-02000-9.6787741368e-03
+000O  0-3.2428702504e-02000-3.2146539148e-0200003.2144354528e-02
+000H  004.2513585593e-0300002.2460617414e-02000-2.1606558619e-02
+000H  0-2.4476424853e-0200007.8217833629e-03000-1.6047294730e-02
+000O  001.6141832221e-02000-2.2850824364e-0200003.9796298560e-02
+000H  008.4224444865e-0300002.1316601081e-02000-2.4099408268e-02
+
+[Molecule Summary]
+Number of atoms: 60
+Atom 0: H (3.722495636, -6.867302037, 2.526601441)
+Atom 1: O (5.487688682, -6.43990271, 2.042189081)
+Atom 2: H (6.268240001, -8.090748437, 2.261453988)
+Atom 3: H (-5.592398399, 7.490231312, -1.375493753)
+Atom 4: O (-4.03991291, 6.543667564, -1.639053836)
+Atom 5: H (-4.521301709, 4.896034372, -0.898451324)
+Atom 6: H (1.959702542, 2.017244698, 5.564317071)
+Atom 7: O (1.435587039, 0.2251419543, 5.514144846)
+Atom 8: H (2.70336641, -0.4051950465, 4.301054145)
+Atom 9: H (0.2659978302, -6.423821142, 5.093094998)
+Atom 10: O (0.7181714647, -7.068255499, 3.397595047)
+Atom 11: H (-0.7002001706, -6.334947329, 2.431264765)
+Atom 12: H (-11.66076208, -4.9923915, -6.235566639)
+Atom 13: O (-10.34058061, -4.479973401, -5.06714906)
+Atom 14: H (-9.139225107, -3.633791898, -6.214004866)
+Atom 15: H (8.936495303, 2.595614234, 1.364042013)
+Atom 16: O (7.180750887, 2.937579049, 1.807655189)
+Atom 17: H (6.492153634, 1.191642311, 1.804971778)
+Atom 18: H (-7.248365283, 3.595997378, -11.51825785)
+Atom 19: O (-6.731808684, 2.339310699, -10.28215028)
+Atom 20: H (-4.967258145, 2.894342119, -9.975088706)
+Atom 21: H (1.022096095, 5.332145336, -3.426148806)
+Atom 22: O (-0.169565113, 5.567000482, -4.830952209)
+Atom 23: H (-1.633138994, 6.196014674, -3.851299359)
+Atom 24: H (-0.9393071999, -0.8176466407, -4.862378352)
+Atom 25: O (-1.213260776, -1.333863089, -6.635961782)
+Atom 26: H (0.00504556839, -2.706257691, -6.783511587)
+Atom 27: H (-3.375995479, -2.079473375, 3.777977991)
+Atom 28: O (-3.646585343, -0.3819136223, 4.487400024)
+Atom 29: H (-1.903898934, 0.02086257491, 4.999818123)
+Atom 30: H (3.436202149, -1.896510105, 0.3645470405)
+Atom 31: O (4.71322228, -1.492014257, 1.644156096)
+Atom 32: H (5.349322945, -3.238253351, 1.938669892)
+Atom 33: H (-4.941482282, 1.410793834, 2.041905622)
+Atom 34: O (-5.157572449, 1.954392412, 0.2607443919)
+Atom 35: H (-6.176323729, 0.5085063663, -0.3438167464)
+Atom 36: H (1.985365021, 4.769271553, 1.239565762)
+Atom 37: O (2.442092895, 4.150820928, -0.4547625592)
+Atom 38: H (4.27798059, 3.990402089, -0.2045250437)
+Atom 39: H (-1.854747161, -3.627952645, 8.53141364)
+Atom 40: O (-0.4356763267, -4.242907276, 7.535263482)
+Atom 41: H (0.4662142986, -2.653817795, 7.182187079)
+Atom 42: H (-8.372279814, -3.458236354, -2.218028085)
+Atom 43: O (-6.80666073, -2.484630627, -1.902028105)
+Atom 44: H (-6.504172291, -2.010271609, -3.68515465)
+Atom 45: H (3.932841036, 6.468626545, 5.727683882)
+Atom 46: O (3.510033743, 4.953538734, 4.770235313)
+Atom 47: H (5.163884134, 4.517900202, 4.020599911)
+Atom 48: H (-1.380142479, 1.680363246, -8.399850917)
+Atom 49: O (-1.934021166, 3.318925754, -9.081267211)
+Atom 50: H (-1.188354188, 4.432616868, -7.775523244)
+Atom 51: H (0.6513885483, 1.506697428, -1.414119752)
+Atom 52: O (-0.5507039476, 0.09297451864, -1.659198315)
+Atom 53: H (-2.107932649, 1.014801753, -1.181551174)
+Atom 54: H (-4.63508211, -1.620572316, -7.340319349)
+Atom 55: O (-6.486635634, -1.658102274, -7.108412176)
+Atom 56: H (-6.919061632, -0.2419227211, -8.261371796)
+Atom 57: H (-4.323069452, -3.95177609, -0.03673627322)
+Atom 58: O (-2.667556103, -4.085530896, 0.821010353)
+Atom 59: H (-1.728589054, -2.849309948, -0.2057722629)
+Number of electrons: 200
+Number of alpha-spin electrons: 100
+Number of beta-spin electrons: 100
+Occupied orbitals: 100
+Virtual orbitals: 400
+
+[Basis Set Summary]
+Number of basis functions: 500
+Number of primitive basis functions: 640
+Number of auxiliary basis functions: 1920
+Number of primitive auxiliary basis functions: 600
+
+[Device Memory Statistics]
+Current allocated: 10.78 GB
+Total allocated: 29.18 GB
+Peak usage: 21.54 GB
+
+[Orbital Energies]
+  MO 0001 (occ) -20.607540 hartree
+  MO 0002 (occ) -20.606886 hartree
+  MO 0003 (occ) -20.600000 hartree
+  MO 0004 (occ) -20.593889 hartree
+  MO 0005 (occ) -20.577892 hartree
+  MO 0006 (occ) -20.572418 hartree
+  MO 0007 (occ) -20.569896 hartree
+  MO 0008 (occ) -20.559960 hartree
+  MO 0009 (occ) -20.556911 hartree
+  MO 0010 (occ) -20.551598 hartree
+  MO 0011 (occ) -20.550388 hartree
+  MO 0012 (occ) -20.550150 hartree
+  MO 0013 (occ) -20.544741 hartree
+  MO 0014 (occ) -20.542773 hartree
+  MO 0015 (occ) -20.542628 hartree
+  MO 0016 (occ) -20.532598 hartree
+  MO 0017 (occ) -20.528746 hartree
+  MO 0018 (occ) -20.525817 hartree
+  MO 0019 (occ) -20.516341 hartree
+  MO 0020 (occ) -20.512736 hartree
+  MO 0021 (occ) -1.397345 hartree
+  MO 0022 (occ) -1.381407 hartree
+  MO 0023 (occ) -1.373088 hartree
+  MO 0024 (occ) -1.371293 hartree
+  MO 0025 (occ) -1.361380 hartree
+  MO 0026 (occ) -1.351971 hartree
+  MO 0027 (occ) -1.349401 hartree
+  MO 0028 (occ) -1.345103 hartree
+  MO 0029 (occ) -1.336023 hartree
+  MO 0030 (occ) -1.333887 hartree
+  MO 0031 (occ) -1.329717 hartree
+  MO 0032 (occ) -1.328514 hartree
+  MO 0033 (occ) -1.322547 hartree
+  MO 0034 (occ) -1.319509 hartree
+  MO 0035 (occ) -1.315848 hartree
+  MO 0036 (occ) -1.307837 hartree
+  MO 0037 (occ) -1.304846 hartree
+  MO 0038 (occ) -1.297616 hartree
+  MO 0039 (occ) -1.296558 hartree
+  MO 0040 (occ) -1.282056 hartree
+  MO 0041 (occ) -0.762367 hartree
+  MO 0042 (occ) -0.741583 hartree
+  MO 0043 (occ) -0.729020 hartree
+  MO 0044 (occ) -0.722151 hartree
+  MO 0045 (occ) -0.719010 hartree
+  MO 0046 (occ) -0.715805 hartree
+  MO 0047 (occ) -0.710925 hartree
+  MO 0048 (occ) -0.704908 hartree
+  MO 0049 (occ) -0.697612 hartree
+  MO 0050 (occ) -0.696850 hartree
+  MO 0051 (occ) -0.693874 hartree
+  MO 0052 (occ) -0.692733 hartree
+  MO 0053 (occ) -0.689071 hartree
+  MO 0054 (occ) -0.687151 hartree
+  MO 0055 (occ) -0.680566 hartree
+  MO 0056 (occ) -0.676399 hartree
+  MO 0057 (occ) -0.671994 hartree
+  MO 0058 (occ) -0.670563 hartree
+  MO 0059 (occ) -0.667024 hartree
+  MO 0060 (occ) -0.657968 hartree
+  MO 0061 (occ) -0.652893 hartree
+  MO 0062 (occ) -0.640006 hartree
+  MO 0063 (occ) -0.635196 hartree
+  MO 0064 (occ) -0.627364 hartree
+  MO 0065 (occ) -0.620737 hartree
+  MO 0066 (occ) -0.618096 hartree
+  MO 0067 (occ) -0.607128 hartree
+  MO 0068 (occ) -0.596910 hartree
+  MO 0069 (occ) -0.595597 hartree
+  MO 0070 (occ) -0.583258 hartree
+  MO 0071 (occ) -0.573979 hartree
+  MO 0072 (occ) -0.570381 hartree
+  MO 0073 (occ) -0.567318 hartree
+  MO 0074 (occ) -0.561075 hartree
+  MO 0075 (occ) -0.557634 hartree
+  MO 0076 (occ) -0.557269 hartree
+  MO 0077 (occ) -0.542638 hartree
+  MO 0078 (occ) -0.539048 hartree
+  MO 0079 (occ) -0.536701 hartree
+  MO 0080 (occ) -0.532327 hartree
+  MO 0081 (occ) -0.529168 hartree
+  MO 0082 (occ) -0.525268 hartree
+  MO 0083 (occ) -0.518191 hartree
+  MO 0084 (occ) -0.508613 hartree
+  MO 0085 (occ) -0.507999 hartree
+  MO 0086 (occ) -0.502235 hartree
+  MO 0087 (occ) -0.498961 hartree
+  MO 0088 (occ) -0.496844 hartree
+  MO 0089 (occ) -0.495749 hartree
+  MO 0090 (occ) -0.495663 hartree
+  MO 0091 (occ) -0.490113 hartree
+  MO 0092 (occ) -0.485980 hartree
+  MO 0093 (occ) -0.484370 hartree
+  MO 0094 (occ) -0.483122 hartree
+  MO 0095 (occ) -0.481273 hartree
+  MO 0096 (occ) -0.471661 hartree
+  MO 0097 (occ) -0.467291 hartree
+  MO 0098 (occ) -0.462288 hartree
+  MO 0099 (occ) -0.459173 hartree
+  MO 0100 (occ) -0.450865 hartree
+  MO 0101 (vir) 0.132335 hartree
+  MO 0102 (vir) 0.162012 hartree
+  MO 0103 (vir) 0.175943 hartree
+  MO 0104 (vir) 0.184982 hartree
+  MO 0105 (vir) 0.197141 hartree
+  MO 0106 (vir) 0.200595 hartree
+  MO 0107 (vir) 0.206869 hartree
+  MO 0108 (vir) 0.214736 hartree
+  MO 0109 (vir) 0.222051 hartree
+  MO 0110 (vir) 0.242197 hartree
+  MO 0111 (vir) 0.245941 hartree
+  MO 0112 (vir) 0.267690 hartree
+  MO 0113 (vir) 0.288265 hartree
+  MO 0114 (vir) 0.290737 hartree
+  MO 0115 (vir) 0.299635 hartree
+  MO 0116 (vir) 0.312557 hartree
+  MO 0117 (vir) 0.323726 hartree
+  MO 0118 (vir) 0.327072 hartree
+  MO 0119 (vir) 0.331446 hartree
+  MO 0120 (vir) 0.337767 hartree
+  MO 0121 (vir) 0.346751 hartree
+  MO 0122 (vir) 0.370309 hartree
+  MO 0123 (vir) 0.377381 hartree
+  MO 0124 (vir) 0.386689 hartree
+  MO 0125 (vir) 0.396615 hartree
+  MO 0126 (vir) 0.400538 hartree
+  MO 0127 (vir) 0.404672 hartree
+  MO 0128 (vir) 0.408853 hartree
+  MO 0129 (vir) 0.418261 hartree
+  MO 0130 (vir) 0.422344 hartree
+  MO 0131 (vir) 0.428437 hartree
+  MO 0132 (vir) 0.435437 hartree
+  MO 0133 (vir) 0.437019 hartree
+  MO 0134 (vir) 0.448846 hartree
+  MO 0135 (vir) 0.450637 hartree
+  MO 0136 (vir) 0.460121 hartree
+  MO 0137 (vir) 0.465715 hartree
+  MO 0138 (vir) 0.475127 hartree
+  MO 0139 (vir) 0.477367 hartree
+  MO 0140 (vir) 0.486256 hartree
+  MO 0141 (vir) 0.648986 hartree
+  MO 0142 (vir) 0.664610 hartree
+  MO 0143 (vir) 0.677926 hartree
+  MO 0144 (vir) 0.681632 hartree
+  MO 0145 (vir) 0.688785 hartree
+  MO 0146 (vir) 0.698910 hartree
+  MO 0147 (vir) 0.714369 hartree
+  MO 0148 (vir) 0.716134 hartree
+  MO 0149 (vir) 0.723883 hartree
+  MO 0150 (vir) 0.729397 hartree
+  MO 0151 (vir) 0.730947 hartree
+  MO 0152 (vir) 0.758880 hartree
+  MO 0153 (vir) 0.759324 hartree
+  MO 0154 (vir) 0.770004 hartree
+  MO 0155 (vir) 0.774942 hartree
+  MO 0156 (vir) 0.790384 hartree
+  MO 0157 (vir) 0.798256 hartree
+  MO 0158 (vir) 0.805873 hartree
+  MO 0159 (vir) 0.810494 hartree
+  MO 0160 (vir) 0.814924 hartree
+  MO 0161 (vir) 0.818750 hartree
+  MO 0162 (vir) 0.822378 hartree
+  MO 0163 (vir) 0.832711 hartree
+  MO 0164 (vir) 0.838643 hartree
+  MO 0165 (vir) 0.842073 hartree
+  MO 0166 (vir) 0.846692 hartree
+  MO 0167 (vir) 0.854958 hartree
+  MO 0168 (vir) 0.861817 hartree
+  MO 0169 (vir) 0.871257 hartree
+  MO 0170 (vir) 0.879669 hartree
+  MO 0171 (vir) 0.882675 hartree
+  MO 0172 (vir) 0.890289 hartree
+  MO 0173 (vir) 0.901571 hartree
+  MO 0174 (vir) 0.903664 hartree
+  MO 0175 (vir) 0.914124 hartree
+  MO 0176 (vir) 0.919539 hartree
+  MO 0177 (vir) 0.935723 hartree
+  MO 0178 (vir) 0.942903 hartree
+  MO 0179 (vir) 0.950743 hartree
+  MO 0180 (vir) 0.957637 hartree
+  MO 0181 (vir) 1.073445 hartree
+  MO 0182 (vir) 1.120912 hartree
+  MO 0183 (vir) 1.134832 hartree
+  MO 0184 (vir) 1.138283 hartree
+  MO 0185 (vir) 1.142032 hartree
+  MO 0186 (vir) 1.145767 hartree
+  MO 0187 (vir) 1.154072 hartree
+  MO 0188 (vir) 1.156272 hartree
+  MO 0189 (vir) 1.165067 hartree
+  MO 0190 (vir) 1.170812 hartree
+  MO 0191 (vir) 1.174767 hartree
+  MO 0192 (vir) 1.177984 hartree
+  MO 0193 (vir) 1.186440 hartree
+  MO 0194 (vir) 1.190105 hartree
+  MO 0195 (vir) 1.194891 hartree
+  MO 0196 (vir) 1.197853 hartree
+  MO 0197 (vir) 1.203747 hartree
+  MO 0198 (vir) 1.212837 hartree
+  MO 0199 (vir) 1.217314 hartree
+  MO 0200 (vir) 1.220706 hartree
+  MO 0201 (vir) 1.227328 hartree
+  MO 0202 (vir) 1.231473 hartree
+  MO 0203 (vir) 1.240041 hartree
+  MO 0204 (vir) 1.243614 hartree
+  MO 0205 (vir) 1.249914 hartree
+  MO 0206 (vir) 1.254012 hartree
+  MO 0207 (vir) 1.256660 hartree
+  MO 0208 (vir) 1.259455 hartree
+  MO 0209 (vir) 1.262539 hartree
+  MO 0210 (vir) 1.272138 hartree
+  MO 0211 (vir) 1.278443 hartree
+  MO 0212 (vir) 1.281644 hartree
+  MO 0213 (vir) 1.289258 hartree
+  MO 0214 (vir) 1.295403 hartree
+  MO 0215 (vir) 1.308771 hartree
+  MO 0216 (vir) 1.309955 hartree
+  MO 0217 (vir) 1.311752 hartree
+  MO 0218 (vir) 1.319146 hartree
+  MO 0219 (vir) 1.323609 hartree
+  MO 0220 (vir) 1.337568 hartree
+  MO 0221 (vir) 1.339976 hartree
+  MO 0222 (vir) 1.344606 hartree
+  MO 0223 (vir) 1.350562 hartree
+  MO 0224 (vir) 1.356306 hartree
+  MO 0225 (vir) 1.364194 hartree
+  MO 0226 (vir) 1.369775 hartree
+  MO 0227 (vir) 1.371894 hartree
+  MO 0228 (vir) 1.374887 hartree
+  MO 0229 (vir) 1.379370 hartree
+  MO 0230 (vir) 1.382957 hartree
+  MO 0231 (vir) 1.394508 hartree
+  MO 0232 (vir) 1.400050 hartree
+  MO 0233 (vir) 1.406259 hartree
+  MO 0234 (vir) 1.409334 hartree
+  MO 0235 (vir) 1.412213 hartree
+  MO 0236 (vir) 1.417432 hartree
+  MO 0237 (vir) 1.422744 hartree
+  MO 0238 (vir) 1.430929 hartree
+  MO 0239 (vir) 1.437503 hartree
+  MO 0240 (vir) 1.445163 hartree
+  MO 0241 (vir) 1.447910 hartree
+  MO 0242 (vir) 1.455652 hartree
+  MO 0243 (vir) 1.458745 hartree
+  MO 0244 (vir) 1.469732 hartree
+  MO 0245 (vir) 1.475449 hartree
+  MO 0246 (vir) 1.481321 hartree
+  MO 0247 (vir) 1.492507 hartree
+  MO 0248 (vir) 1.498697 hartree
+  MO 0249 (vir) 1.505184 hartree
+  MO 0250 (vir) 1.506298 hartree
+  MO 0251 (vir) 1.510367 hartree
+  MO 0252 (vir) 1.517623 hartree
+  MO 0253 (vir) 1.519963 hartree
+  MO 0254 (vir) 1.529253 hartree
+  MO 0255 (vir) 1.536975 hartree
+  MO 0256 (vir) 1.539606 hartree
+  MO 0257 (vir) 1.543483 hartree
+  MO 0258 (vir) 1.549150 hartree
+  MO 0259 (vir) 1.551386 hartree
+  MO 0260 (vir) 1.555679 hartree
+  MO 0261 (vir) 1.556920 hartree
+  MO 0262 (vir) 1.574129 hartree
+  MO 0263 (vir) 1.579802 hartree
+  MO 0264 (vir) 1.580387 hartree
+  MO 0265 (vir) 1.586720 hartree
+  MO 0266 (vir) 1.589330 hartree
+  MO 0267 (vir) 1.595796 hartree
+  MO 0268 (vir) 1.603780 hartree
+  MO 0269 (vir) 1.610109 hartree
+  MO 0270 (vir) 1.616455 hartree
+  MO 0271 (vir) 1.626105 hartree
+  MO 0272 (vir) 1.633052 hartree
+  MO 0273 (vir) 1.634316 hartree
+  MO 0274 (vir) 1.639627 hartree
+  MO 0275 (vir) 1.644105 hartree
+  MO 0276 (vir) 1.648146 hartree
+  MO 0277 (vir) 1.652747 hartree
+  MO 0278 (vir) 1.655511 hartree
+  MO 0279 (vir) 1.662704 hartree
+  MO 0280 (vir) 1.667445 hartree
+  MO 0281 (vir) 1.681935 hartree
+  MO 0282 (vir) 1.685585 hartree
+  MO 0283 (vir) 1.689032 hartree
+  MO 0284 (vir) 1.700019 hartree
+  MO 0285 (vir) 1.705585 hartree
+  MO 0286 (vir) 1.711423 hartree
+  MO 0287 (vir) 1.716777 hartree
+  MO 0288 (vir) 1.730469 hartree
+  MO 0289 (vir) 1.733778 hartree
+  MO 0290 (vir) 1.748848 hartree
+  MO 0291 (vir) 1.754490 hartree
+  MO 0292 (vir) 1.758493 hartree
+  MO 0293 (vir) 1.765401 hartree
+  MO 0294 (vir) 1.770710 hartree
+  MO 0295 (vir) 1.776157 hartree
+  MO 0296 (vir) 1.781505 hartree
+  MO 0297 (vir) 1.790118 hartree
+  MO 0298 (vir) 1.801595 hartree
+  MO 0299 (vir) 1.802300 hartree
+  MO 0300 (vir) 1.807848 hartree
+  MO 0301 (vir) 1.827736 hartree
+  MO 0302 (vir) 1.845246 hartree
+  MO 0303 (vir) 1.855028 hartree
+  MO 0304 (vir) 1.866890 hartree
+  MO 0305 (vir) 1.879775 hartree
+  MO 0306 (vir) 1.888510 hartree
+  MO 0307 (vir) 1.899029 hartree
+  MO 0308 (vir) 1.907578 hartree
+  MO 0309 (vir) 1.911273 hartree
+  MO 0310 (vir) 1.930611 hartree
+  MO 0311 (vir) 1.938297 hartree
+  MO 0312 (vir) 1.953080 hartree
+  MO 0313 (vir) 1.955645 hartree
+  MO 0314 (vir) 1.963123 hartree
+  MO 0315 (vir) 1.965638 hartree
+  MO 0316 (vir) 1.974398 hartree
+  MO 0317 (vir) 1.977267 hartree
+  MO 0318 (vir) 1.981620 hartree
+  MO 0319 (vir) 1.990130 hartree
+  MO 0320 (vir) 1.995790 hartree
+  MO 0321 (vir) 2.006540 hartree
+  MO 0322 (vir) 2.012041 hartree
+  MO 0323 (vir) 2.017104 hartree
+  MO 0324 (vir) 2.018599 hartree
+  MO 0325 (vir) 2.026393 hartree
+  MO 0326 (vir) 2.033910 hartree
+  MO 0327 (vir) 2.041217 hartree
+  MO 0328 (vir) 2.052449 hartree
+  MO 0329 (vir) 2.060550 hartree
+  MO 0330 (vir) 2.062012 hartree
+  MO 0331 (vir) 2.078725 hartree
+  MO 0332 (vir) 2.091585 hartree
+  MO 0333 (vir) 2.097744 hartree
+  MO 0334 (vir) 2.117130 hartree
+  MO 0335 (vir) 2.126854 hartree
+  MO 0336 (vir) 2.136458 hartree
+  MO 0337 (vir) 2.145203 hartree
+  MO 0338 (vir) 2.159735 hartree
+  MO 0339 (vir) 2.190498 hartree
+  MO 0340 (vir) 2.203350 hartree
+  MO 0341 (vir) 2.365943 hartree
+  MO 0342 (vir) 2.370608 hartree
+  MO 0343 (vir) 2.383292 hartree
+  MO 0344 (vir) 2.399031 hartree
+  MO 0345 (vir) 2.418308 hartree
+  MO 0346 (vir) 2.426906 hartree
+  MO 0347 (vir) 2.428640 hartree
+  MO 0348 (vir) 2.429776 hartree
+  MO 0349 (vir) 2.437178 hartree
+  MO 0350 (vir) 2.440847 hartree
+  MO 0351 (vir) 2.475627 hartree
+  MO 0352 (vir) 2.506709 hartree
+  MO 0353 (vir) 2.529301 hartree
+  MO 0354 (vir) 2.563070 hartree
+  MO 0355 (vir) 2.576350 hartree
+  MO 0356 (vir) 2.587713 hartree
+  MO 0357 (vir) 2.600796 hartree
+  MO 0358 (vir) 2.615059 hartree
+  MO 0359 (vir) 2.616151 hartree
+  MO 0360 (vir) 2.623705 hartree
+  MO 0361 (vir) 2.638648 hartree
+  MO 0362 (vir) 2.650074 hartree
+  MO 0363 (vir) 2.666311 hartree
+  MO 0364 (vir) 2.673289 hartree
+  MO 0365 (vir) 2.682922 hartree
+  MO 0366 (vir) 2.693830 hartree
+  MO 0367 (vir) 2.702486 hartree
+  MO 0368 (vir) 2.708728 hartree
+  MO 0369 (vir) 2.713436 hartree
+  MO 0370 (vir) 2.727023 hartree
+  MO 0371 (vir) 2.728532 hartree
+  MO 0372 (vir) 2.738718 hartree
+  MO 0373 (vir) 2.762889 hartree
+  MO 0374 (vir) 2.772633 hartree
+  MO 0375 (vir) 2.780948 hartree
+  MO 0376 (vir) 2.808501 hartree
+  MO 0377 (vir) 2.812097 hartree
+  MO 0378 (vir) 2.818520 hartree
+  MO 0379 (vir) 2.827902 hartree
+  MO 0380 (vir) 2.883190 hartree
+  MO 0381 (vir) 3.212609 hartree
+  MO 0382 (vir) 3.231088 hartree
+  MO 0383 (vir) 3.246610 hartree
+  MO 0384 (vir) 3.249197 hartree
+  MO 0385 (vir) 3.253038 hartree
+  MO 0386 (vir) 3.254439 hartree
+  MO 0387 (vir) 3.259306 hartree
+  MO 0388 (vir) 3.262193 hartree
+  MO 0389 (vir) 3.266026 hartree
+  MO 0390 (vir) 3.268764 hartree
+  MO 0391 (vir) 3.269301 hartree
+  MO 0392 (vir) 3.273446 hartree
+  MO 0393 (vir) 3.280697 hartree
+  MO 0394 (vir) 3.282947 hartree
+  MO 0395 (vir) 3.292900 hartree
+  MO 0396 (vir) 3.295363 hartree
+  MO 0397 (vir) 3.296131 hartree
+  MO 0398 (vir) 3.297448 hartree
+  MO 0399 (vir) 3.298415 hartree
+  MO 0400 (vir) 3.303516 hartree
+  MO 0401 (vir) 3.307237 hartree
+  MO 0402 (vir) 3.309425 hartree
+  MO 0403 (vir) 3.313008 hartree
+  MO 0404 (vir) 3.317412 hartree
+  MO 0405 (vir) 3.319602 hartree
+  MO 0406 (vir) 3.323947 hartree
+  MO 0407 (vir) 3.327055 hartree
+  MO 0408 (vir) 3.334545 hartree
+  MO 0409 (vir) 3.341288 hartree
+  MO 0410 (vir) 3.346972 hartree
+  MO 0411 (vir) 3.350397 hartree
+  MO 0412 (vir) 3.357434 hartree
+  MO 0413 (vir) 3.370434 hartree
+  MO 0414 (vir) 3.372543 hartree
+  MO 0415 (vir) 3.374469 hartree
+  MO 0416 (vir) 3.377465 hartree
+  MO 0417 (vir) 3.380066 hartree
+  MO 0418 (vir) 3.395434 hartree
+  MO 0419 (vir) 3.425269 hartree
+  MO 0420 (vir) 3.427016 hartree
+  MO 0421 (vir) 3.443567 hartree
+  MO 0422 (vir) 3.463733 hartree
+  MO 0423 (vir) 3.477926 hartree
+  MO 0424 (vir) 3.481068 hartree
+  MO 0425 (vir) 3.486608 hartree
+  MO 0426 (vir) 3.488745 hartree
+  MO 0427 (vir) 3.494558 hartree
+  MO 0428 (vir) 3.500517 hartree
+  MO 0429 (vir) 3.510253 hartree
+  MO 0430 (vir) 3.511940 hartree
+  MO 0431 (vir) 3.516951 hartree
+  MO 0432 (vir) 3.521995 hartree
+  MO 0433 (vir) 3.523262 hartree
+  MO 0434 (vir) 3.527379 hartree
+  MO 0435 (vir) 3.529842 hartree
+  MO 0436 (vir) 3.534653 hartree
+  MO 0437 (vir) 3.543724 hartree
+  MO 0438 (vir) 3.545926 hartree
+  MO 0439 (vir) 3.559980 hartree
+  MO 0440 (vir) 3.570883 hartree
+  MO 0441 (vir) 3.805231 hartree
+  MO 0442 (vir) 3.830256 hartree
+  MO 0443 (vir) 3.846655 hartree
+  MO 0444 (vir) 3.847383 hartree
+  MO 0445 (vir) 3.853461 hartree
+  MO 0446 (vir) 3.854377 hartree
+  MO 0447 (vir) 3.861317 hartree
+  MO 0448 (vir) 3.866875 hartree
+  MO 0449 (vir) 3.880483 hartree
+  MO 0450 (vir) 3.881715 hartree
+  MO 0451 (vir) 3.885548 hartree
+  MO 0452 (vir) 3.891304 hartree
+  MO 0453 (vir) 3.896961 hartree
+  MO 0454 (vir) 3.902898 hartree
+  MO 0455 (vir) 3.919318 hartree
+  MO 0456 (vir) 3.923564 hartree
+  MO 0457 (vir) 3.939643 hartree
+  MO 0458 (vir) 3.949156 hartree
+  MO 0459 (vir) 3.965706 hartree
+  MO 0460 (vir) 3.970649 hartree
+  MO 0461 (vir) 4.143415 hartree
+  MO 0462 (vir) 4.154920 hartree
+  MO 0463 (vir) 4.157564 hartree
+  MO 0464 (vir) 4.180563 hartree
+  MO 0465 (vir) 4.184464 hartree
+  MO 0466 (vir) 4.189183 hartree
+  MO 0467 (vir) 4.197751 hartree
+  MO 0468 (vir) 4.212745 hartree
+  MO 0469 (vir) 4.216805 hartree
+  MO 0470 (vir) 4.221643 hartree
+  MO 0471 (vir) 4.224297 hartree
+  MO 0472 (vir) 4.225925 hartree
+  MO 0473 (vir) 4.233046 hartree
+  MO 0474 (vir) 4.235987 hartree
+  MO 0475 (vir) 4.236698 hartree
+  MO 0476 (vir) 4.244407 hartree
+  MO 0477 (vir) 4.252691 hartree
+  MO 0478 (vir) 4.272473 hartree
+  MO 0479 (vir) 4.283079 hartree
+  MO 0480 (vir) 4.288786 hartree
+  MO 0481 (vir) 6.021042 hartree
+  MO 0482 (vir) 6.036337 hartree
+  MO 0483 (vir) 6.059605 hartree
+  MO 0484 (vir) 6.073928 hartree
+  MO 0485 (vir) 6.091947 hartree
+  MO 0486 (vir) 6.103943 hartree
+  MO 0487 (vir) 6.125041 hartree
+  MO 0488 (vir) 6.170846 hartree
+  MO 0489 (vir) 6.192828 hartree
+  MO 0490 (vir) 6.213930 hartree
+  MO 0491 (vir) 6.220116 hartree
+  MO 0492 (vir) 6.250285 hartree
+  MO 0493 (vir) 6.272046 hartree
+  MO 0494 (vir) 6.304129 hartree
+  MO 0495 (vir) 6.315986 hartree
+  MO 0496 (vir) 6.331249 hartree
+  MO 0497 (vir) 6.386860 hartree
+  MO 0498 (vir) 6.404422 hartree
+  MO 0499 (vir) 6.415346 hartree
+  MO 0500 (vir) 6.515468 hartree
+
+[Calculation Summary]
+Method: Restricted Hartree-Fock (RHF)
+Schwarz screening threshold: 1.00e-12
+Initial guess method: core
+Convergence algorithm: DIIS (diis_size: 8, diis_include_transform: false)
+Number of iterations: 15
+Convergence criterion: 1.00e-06
+Energy difference: 3.06e-07
+Energy (without nuclear repulsion): -3803.68446975803135501 [hartree]
+Total Energy: -1520.79870927200272490 [hartree]
+Computing time: 488 [ms]

@@ -1,0 +1,129 @@
+
+                 _..--+~/@-~--.      _____  __  __  _____   ____    ____
+             _-=~      (  .   "}    | ____| \ \/ / | ____| / ___|  / ___|
+          _-~     _.--=.\ \""""     |  _|    \  /  |  _|   \___ \  \___ \
+        _~      _-       \ \_\      | |___   /  \  | |___   ___) |  ___) |
+       =      _=          '--'      |_____| /_/\_\ |_____| |____/  |____/
+      '      =
+     :      :     ____            EXtreme-scale Electronic Structure System
+___ |      ;                               Enjoy the power of GPUs!
+    ;       ;                            Gordon Bell Award Winner 2024
+  ___=       \ ___ __     __..-...__
+     :        =_     _.-~~          ~~--.__
+_____ \         ~-+-~                   ___~=_______
+       == ...______ __ ___ _--~~--_
+  
+
+------------------------------------------------------------------------------
+
+    * Giuseppe Barca         * Hamish Brown           * Jorge Galvez-Vallejo
+    * Andrew Gilbert         * Min Htoo               * Fazeleh Kazemian    
+    * Sean Laguna            * Jack Miller            * Elise Palethorpe    
+    * Oliver Pulsford        * Ross Pure              * Christopher Seidl   
+    * Dylan Silke            * Joshua Singla          * Calum Snowdon       
+    * Ryan Stocks            * Ryan Swart             * Fiona Yu            
+
+------------------------------------------------------------------------------
+
+Commit no. used 0fc026e0b40bf65f83355abcfcdeb9caca1919af
+Start of Calculation Local time: 2026-09-30 19:10:56
+Start of Calculation UTC time:   2026-09-30 09:10:56
+├── Calculation params
+│   ├── Title: cc-pVTZ_gly30
+│   ├── Driver: Gradient
+│   ├── Model
+│   │   ├── Theory level: HF
+│   │   ├── Spin configuration: Restricted
+│   │   ├── Primary basis: cc-pVTZ
+│   │   ├── Auxiliary basis: cc-pVTZ-RIFIT
+│   │   ├── Basis set type: Spherical
+│   │   ├── Standard orientation: None
+│   ├── Keywords
+│   │   ├── SCF keywords
+│   │   │   ├── Max iterations: 20
+│   │   │   ├── DIIS size: 8
+│   │   │   ├── Convergence threshold: 1.000e-06
+│   │   │   ├── Convergence metric: Energy
+│   │   │   ├── Screening threshold: 1.000e-11
+│   │   │   ├── Gradient screening threshold: 1.000e-11
+│   │   │   ├── Allow crap scf: False
+│   │   │   ├── Fock build type: RI
+│   │   │   ├── Store RI B tensor on host: False
+│   │   │   ├── Compress B tensor shell pairs: True
+│   │   │   ├── Allow diagonal shift regularization when computing RI J_PQ^{-1/2}: True
+│   │   ├── RTAT keywords
+│   │   │   ├── Enabled: True
+│   │   ├── Integrals Keywords
+│   │   │   ├── Scheduler: Callback
+│   │   │   ├── Number of streams: 4
+│   ├── System
+│   │   ├── Max GPU Memory: 120 GB
+
+************************************************************
+****************** Beginning RI-HF energy ******************
+************************************************************
+
+SCF parameters:
+  # primary basis functions:             4918
+  # primary cartesian basis functions:   5615
+  Fock build method:                     RI
+  # auxiliary basis functions:           12561
+  B compression:                         true
+  B on host:                             false
+  # occupied orbitals:                   455
+  # atoms:                               213
+  Density threshold:                     1.0e-11
+  Convergence metric:                    Energy
+   - Convergence threshold:              1.0e-06
+  Max # SCF iterations:                  20
+  DIIS history length:                   8
+  Use GPU:                               true
+
+One electron integrals and orthogonalizer took 0.795743s
+3C integrals and B formation took 52.497657s
+Iteration |      Energy      | Energy Metric  | Fock Time (s) | DIIS Time (s)
+----------+------------------+----------------+---------------+--------------
+    1     | -6325.4285312225 |   6.3254e+03   |   89.4013     |    0.3337
+    2     | -6279.4597448298 |   4.5969e+01   |   14.3262     |    0.2305
+    3     | -6281.2324544583 |   1.7727e+00   |   14.3370     |    0.2315
+    4     | -6282.5933473671 |   1.3609e+00   |   14.3344     |    0.2334
+    5     | -6282.6472976637 |   5.3950e-02   |   14.3388     |    0.2376
+    6     | -6282.6516978620 |   4.4002e-03   |   14.3405     |    0.2409
+    7     | -6282.6529160678 |   1.2182e-03   |   14.3327     |    0.2482
+    8     | -6282.6531585085 |   2.4244e-04   |   14.3231     |    0.2471
+    9     | -6282.6531937409 |   3.5232e-05   |   14.3302     |    0.2484
+   10     | -6282.6531968462 |   3.1053e-06   |   14.3763     |    0.2492
+   11     | -6282.6531972126 |   3.6638e-07   |   14.3955     |    0.2516
+=======================================================
+                   HF Energy Results                   
+=======================================================
+E HF                  -6282.65319721
+Converged:            1
+# of SCF iterations:  11
+SCF Time:             289.27s
+************************************************************
+***************** Beginning RI-HF gradient *****************
+************************************************************
+
+/g/data/kx58/ep9149/exess/HERMES/src/lib/memory/stack/stack_buffer.cpp L93:
+	Assertion 'FAILURE' failed: Overallocated GPU OUTER memory buffer. Requested 134822786048 of 120000000000 bytes available in 20.8 GB allocation.
+WARNING: Destructing a running timer.
+WARNING: Destructing a running timer.
+WARNING: Destructing a running timer.
+WARNING: Destructing a running timer.
+Skipping MPI win free due to uncaught exception
+************************************************************
+A runtime error has occurred on rank 1! 
+ The error message is printed below:
+/g/data/kx58/ep9149/exess/HERMES/src/lib/memory/stack/stack_buffer.cpp L93:
+	Assertion 'FAILURE' failed: Overallocated GPU OUTER memory buffer. Requested 134822786048 of 120000000000 bytes available in 20.8 GB allocation.
+************************************************************
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 5.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

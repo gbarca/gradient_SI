@@ -1,0 +1,127 @@
+
+                 _..--+~/@-~--.      _____  __  __  _____   ____    ____
+             _-=~      (  .   "}    | ____| \ \/ / | ____| / ___|  / ___|
+          _-~     _.--=.\ \""""     |  _|    \  /  |  _|   \___ \  \___ \
+        _~      _-       \ \_\      | |___   /  \  | |___   ___) |  ___) |
+       =      _=          '--'      |_____| /_/\_\ |_____| |____/  |____/
+      '      =
+     :      :     ____            EXtreme-scale Electronic Structure System
+___ |      ;                               Enjoy the power of GPUs!
+    ;       ;                            Gordon Bell Award Winner 2024
+  ___=       \ ___ __     __..-...__
+     :        =_     _.-~~          ~~--.__
+_____ \         ~-+-~                   ___~=_______
+       == ...______ __ ___ _--~~--_
+  
+
+------------------------------------------------------------------------------
+
+    * Giuseppe Barca         * Hamish Brown           * Jorge Galvez-Vallejo
+    * Andrew Gilbert         * Min Htoo               * Fazeleh Kazemian    
+    * Sean Laguna            * Jack Miller            * Elise Palethorpe    
+    * Oliver Pulsford        * Ross Pure              * Christopher Seidl   
+    * Dylan Silke            * Joshua Singla          * Calum Snowdon       
+    * Ryan Stocks            * Ryan Swart             * Fiona Yu            
+
+------------------------------------------------------------------------------
+
+Commit no. used 0fc026e0b40bf65f83355abcfcdeb9caca1919af
+Start of Calculation Local time: 2026-09-30 17:28:30
+Start of Calculation UTC time:   2026-09-30 07:28:30
+├── Calculation params
+│   ├── Title: def2-SVP_water140
+│   ├── Driver: Gradient
+│   ├── Model
+│   │   ├── Theory level: HF
+│   │   ├── Spin configuration: Restricted
+│   │   ├── Primary basis: def2-SVP
+│   │   ├── Auxiliary basis: def2-SVP-RIFIT
+│   │   ├── Basis set type: Spherical
+│   │   ├── Standard orientation: None
+│   ├── Keywords
+│   │   ├── SCF keywords
+│   │   │   ├── Max iterations: 20
+│   │   │   ├── DIIS size: 8
+│   │   │   ├── Convergence threshold: 1.000e-06
+│   │   │   ├── Convergence metric: Energy
+│   │   │   ├── Screening threshold: 1.000e-11
+│   │   │   ├── Gradient screening threshold: 1.000e-11
+│   │   │   ├── Allow crap scf: False
+│   │   │   ├── Fock build type: RI
+│   │   │   ├── Store RI B tensor on host: False
+│   │   │   ├── Compress B tensor shell pairs: True
+│   │   │   ├── Allow diagonal shift regularization when computing RI J_PQ^{-1/2}: True
+│   │   ├── RTAT keywords
+│   │   │   ├── Enabled: True
+│   │   ├── Integrals Keywords
+│   │   │   ├── Scheduler: Callback
+│   │   │   ├── Number of streams: 4
+│   ├── System
+│   │   ├── Max GPU Memory: 120 GB
+
+************************************************************
+****************** Beginning RI-HF energy ******************
+************************************************************
+
+SCF parameters:
+  # primary basis functions:             3360
+  # primary cartesian basis functions:   3500
+  Fock build method:                     RI
+  # auxiliary basis functions:           10640
+  B compression:                         true
+  B on host:                             false
+  # occupied orbitals:                   700
+  # atoms:                               420
+  Density threshold:                     1.0e-11
+  Convergence metric:                    Energy
+   - Convergence threshold:              1.0e-06
+  Max # SCF iterations:                  20
+  DIIS history length:                   8
+  Use GPU:                               true
+
+One electron integrals and orthogonalizer took 0.585479s
+3C integrals and B formation took 8.826680s
+Iteration |      Energy      | Energy Metric  | Fock Time (s) | DIIS Time (s)
+----------+------------------+----------------+---------------+--------------
+    1     | -10628.9173173222 |   1.0629e+04   |   24.4685     |    0.1012
+    2     | -10633.7070210466 |   4.7897e+00   |    6.5342     |    0.0958
+    3     | -10636.1851600550 |   2.4781e+00   |    6.5029     |    0.1006
+    4     | -10636.7486143985 |   5.6345e-01   |    6.5329     |    0.0997
+    5     | -10636.7725319180 |   2.3918e-02   |    6.5611     |    0.1004
+    6     | -10636.7742221391 |   1.6902e-03   |    6.5488     |    0.1020
+    7     | -10636.7743567820 |   1.3464e-04   |    6.5382     |    0.1038
+    8     | -10636.7743781247 |   2.1343e-05   |    6.5293     |    0.1060
+    9     | -10636.7743788934 |   7.6870e-07   |    6.5176     |    0.1058
+=======================================================
+                   HF Energy Results                   
+=======================================================
+E HF                  -10636.7743789
+Converged:            1
+# of SCF iterations:  9
+SCF Time:             87.671s
+************************************************************
+***************** Beginning RI-HF gradient *****************
+************************************************************
+
+/g/data/kx58/ep9149/exess/HERMES/src/lib/memory/stack/stack_buffer.cpp L93:
+	Assertion 'FAILURE' failed: Overallocated GPU OUTER memory buffer. Requested 121124275200 of 120000000000 bytes available in 41.71 GB allocation.
+WARNING: Destructing a running timer.
+WARNING: Destructing a running timer.
+WARNING: Destructing a running timer.
+WARNING: Destructing a running timer.
+Skipping MPI win free due to uncaught exception
+************************************************************
+A runtime error has occurred on rank 1! 
+ The error message is printed below:
+/g/data/kx58/ep9149/exess/HERMES/src/lib/memory/stack/stack_buffer.cpp L93:
+	Assertion 'FAILURE' failed: Overallocated GPU OUTER memory buffer. Requested 121124275200 of 120000000000 bytes available in 41.71 GB allocation.
+************************************************************
+
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI COMMUNICATOR 3 DUP FROM 0
+with errorcode 5.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

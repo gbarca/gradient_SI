@@ -1,0 +1,390 @@
+| Startfile from command line: /jobfs/176756429.gadi-pbs/tc_water_sweep/gly20.6-31Gd.sp
+
+
+|       ***********************************************************
+|       *                 TeraChem v1.96H-beta-230407             *
+|       *                   Development Version                   *
+|       *           Chemistry at the Speed of Graphics!           *
+|       ***********************************************************
+|       * This program may only be used in connection with        *
+|       * a valid license from PetaChem, LLC. Use of this program *
+|       * or results thereof indicates acceptance of all terms    *
+|       * and conditions stated in the license and that a valid   *
+|       * license agreement between the user and PetaChem, LLC    *
+|       * exists. PetaChem, LLC does not warrant the correctness  *
+|       * of results or their suitability for any purpose.        *
+|       * Please email bugs, suggestions, and comments to         *
+|       *                  help@petachem.com                      *
+|       *                                                         *
+|       ***********************************************************
+
+
+|       ***********************************************************
+|       *  Compiled by toddmtz      Thu Apr  6 23:26:38 PDT 2023  *
+|       *  Supported architecture SMs: 50 60 70 80 89 90          *
+|       *  Build cuda_12.1.r12.1/compiler.32415258_0              *
+|       *  Git Version: 651ac888a9e1535a2d9cdec6d8aa64cc1dd86de2  *
+|       ***********************************************************
+
+
+| Job started   Thu Aug 20 11:04:51 2026
+| On gadi-gpu-h200-0014.gadi.nci.org.au (available memory: 675821 MB)
+
+| ######################################### RUNTIME INFO ##########################################
+| /g/data/kx58/ep9149/TeraChem/bin/terachem  /jobfs/176756429.gadi-pbs/tc_water_sweep/gly20.6-31Gd.sp 
+
+|  NVRM version: NVIDIA UNIX x86_64 Kernel Module  580.173.02  Tue Jun 23 08:38:17 UTC 2026
+|  GCC version:  gcc version 8.5.0 20210514 (Red Hat 8.5.0-28) (GCC) 
+
+|  	linux-vdso.so.1 (0x00007fff806e9000)
+|  	libmagma.so => /g/data/kx58/ep9149/TeraChem/lib/libmagma.so (0x000014e2faa09000)
+|  	libcurl.so.4 => /lib64/libcurl.so.4 (0x000014e2fa779000)
+|  	libz.so.1 => /lib64/libz.so.1 (0x000014e2fa561000)
+|  	libthcbox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libthcbox.so.1 (0x000014e2f7fa1000)
+|  	libOpenMM.so => /g/data/kx58/ep9149/TeraChem/lib/libOpenMM.so (0x000014e2f793d000)
+|  	libnvToolsExt.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libnvToolsExt.so.1 (0x000014e2f7733000)
+|  	libgpubox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libgpubox.so.1 (0x000014e2f752c000)
+|  	libtensorbox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libtensorbox.so.1 (0x000014e2f7188000)
+|  	libiobox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libiobox.so.1 (0x000014e2f6f84000)
+|  	libintbox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libintbox.so.1 (0x000014e2a598f000)
+|  	libsqmbox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libsqmbox.so.1 (0x000014e2a5445000)
+|  	libgridbox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libgridbox.so.1 (0x000014e2a4df4000)
+|  	libdftbox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libdftbox.so.1 (0x000014e2a4b1c000)
+|  	libcibox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libcibox.so.1 (0x000014e2a420e000)
+|  	libccbox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libccbox.so.1 (0x000014e2a3bd7000)
+|  	libsimbox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/libsimbox.so.1 (0x000014e2a39c0000)
+|  	liboptbox.so.1 => /g/data/kx58/ep9149/TeraChem/lib/liboptbox.so.1 (0x000014e2a379a000)
+|  	libssl.so.10 => /g/data/kx58/ep9149/TeraChem/lib/libssl.so.10 (0x000014e2a3528000)
+|  	libcrypto.so.10 => /g/data/kx58/ep9149/TeraChem/lib/libcrypto.so.10 (0x000014e2a30c5000)
+|  	libpthread.so.0 => /lib64/libpthread.so.0 (0x000014e2a2ea5000)
+|  	libcuda.so.1 => /lib64/libcuda.so.1 (0x000014e29d259000)
+|  	libcudart.so.12 => /g/data/kx58/ep9149/TeraChem/lib/libcudart.so.12 (0x000014e29cfb2000)
+|  	libcublas.so.12 => /g/data/kx58/ep9149/TeraChem/lib/libcublas.so.12 (0x000014e296735000)
+|  	libcufft.so.11 => /g/data/kx58/ep9149/TeraChem/lib/libcufft.so.11 (0x000014e28ac7b000)
+|  	libcusparse.so.12 => /g/data/kx58/ep9149/TeraChem/lib/libcusparse.so.12 (0x000014e27b720000)
+|  	libcusolver.so.11 => /g/data/kx58/ep9149/TeraChem/lib/libcusolver.so.11 (0x000014e2692ac000)
+|  	libcublasLt.so.12 => /g/data/kx58/ep9149/TeraChem/lib/libcublasLt.so.12 (0x000014e24849c000)
+|  	libnvJitLink.so.12 => /g/data/kx58/ep9149/TeraChem/lib/libnvJitLink.so.12 (0x000014e2453e6000)
+|  	libstdc++.so.6 => /lib64/libstdc++.so.6 (0x000014e245051000)
+|  	libm.so.6 => /lib64/libm.so.6 (0x000014e244ccf000)
+|  	libcilkrts.so.5 => /g/data/kx58/ep9149/TeraChem/lib/libcilkrts.so.5 (0x000014e244a94000)
+|  	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x000014e24487c000)
+|  	libc.so.6 => /lib64/libc.so.6 (0x000014e2444a6000)
+|  	/lib64/ld-linux-x86-64.so.2 (0x000014e36230c000)
+|  	libdl.so.2 => /lib64/libdl.so.2 (0x000014e2442a2000)
+|  	libmkl_intel_ilp64.so => /g/data/kx58/ep9149/TeraChem/lib/libmkl_intel_ilp64.so (0x000014e2438d5000)
+|  	libmkl_intel_thread.so => /g/data/kx58/ep9149/TeraChem/lib/libmkl_intel_thread.so (0x000014e2417fa000)
+|  	libmkl_core.so => /g/data/kx58/ep9149/TeraChem/lib/libmkl_core.so (0x000014e23f6c7000)
+|  	libimf.so => /g/data/kx58/ep9149/TeraChem/lib/libimf.so (0x000014e23f1da000)
+|  	libsvml.so => /g/data/kx58/ep9149/TeraChem/lib/libsvml.so (0x000014e23e2bc000)
+|  	libirng.so => /g/data/kx58/ep9149/TeraChem/lib/libirng.so (0x000014e23df49000)
+|  	libiomp5.so => /g/data/kx58/ep9149/TeraChem/lib/libiomp5.so (0x000014e23dba5000)
+|  	libintlc.so.5 => /g/data/kx58/ep9149/TeraChem/lib/libintlc.so.5 (0x000014e23d939000)
+|  	libnghttp2.so.14 => /lib64/libnghttp2.so.14 (0x000014e23d712000)
+|  	libidn2.so.0 => /lib64/libidn2.so.0 (0x000014e23d4f4000)
+|  	libssh.so.4 => /lib64/libssh.so.4 (0x000014e23d284000)
+|  	libpsl.so.5 => /lib64/libpsl.so.5 (0x000014e23d073000)
+|  	libssl.so.1.1 => /lib64/libssl.so.1.1 (0x000014e23cdde000)
+|  	libcrypto.so.1.1 => /lib64/libcrypto.so.1.1 (0x000014e23c8f3000)
+|  	libgssapi_krb5.so.2 => /lib64/libgssapi_krb5.so.2 (0x000014e23c69e000)
+|  	libkrb5.so.3 => /lib64/libkrb5.so.3 (0x000014e23c3b3000)
+|  	libk5crypto.so.3 => /lib64/libk5crypto.so.3 (0x000014e23c19c000)
+|  	libcom_err.so.2 => /lib64/libcom_err.so.2 (0x000014e23bf98000)
+|  	libldap-2.4.so.2 => /lib64/libldap-2.4.so.2 (0x000014e23bd49000)
+|  	liblber-2.4.so.2 => /lib64/liblber-2.4.so.2 (0x000014e23bb39000)
+|  	libbrotlidec.so.1 => /lib64/libbrotlidec.so.1 (0x000014e23b92c000)
+|  	librt.so.1 => /lib64/librt.so.1 (0x000014e23b724000)
+|  	libunistring.so.2 => /lib64/libunistring.so.2 (0x000014e23b3a3000)
+|  	libkrb5support.so.0 => /lib64/libkrb5support.so.0 (0x000014e23b192000)
+|  	libkeyutils.so.1 => /lib64/libkeyutils.so.1 (0x000014e23af8e000)
+|  	libresolv.so.2 => /lib64/libresolv.so.2 (0x000014e23ad77000)
+|  	libsasl2.so.3 => /lib64/libsasl2.so.3 (0x000014e23ab59000)
+|  	libbrotlicommon.so.1 => /lib64/libbrotlicommon.so.1 (0x000014e23a938000)
+|  	libselinux.so.1 => /lib64/libselinux.so.1 (0x000014e23a70d000)
+|  	libcrypt.so.1 => /lib64/libcrypt.so.1 (0x000014e23a4e4000)
+|  	libpcre2-8.so.0 => /lib64/libpcre2-8.so.0 (0x000014e23a260000)
+| #################################################################################################
+
+| Checking Amazon Cloud instance ID...   Not found
+| Cannot find license.dat file /g/data/kx58/ep9149/TeraChem/license.dat
+
+
+| TRYING THE NETWORK LICENSE...
+| Connecting to license server 'license.petachem.com' port '8877'...
+HTTP request failed: Failed to connect to license.petachem.com port 8877: Network is unreachable
+| Failed to establish communication
+
+
+| *************************** WARNING ******************************
+| *                 Running in Demo mode.                          *
+| *                                                                *
+| * You are using the demo version of TeraChem. Commercial users   *
+| * may only use this software for evaluation purposes and are     *
+| * not licensed to use the results for any other business purpose.*
+| * Use of TeraChem in demo mode is only permitted for             *
+| * noncommercial purposes.                                        *
+| ******************************************************************
+
+-----------------------------------
+Processed Input file:
+                    basis 6-31g*
+              coordinates gly20.xyz
+                   charge 0
+                   method rhf
+                     dftd no
+                      run gradient
+                   purify false
+                precision double
+                     fock incremental
+                  timings verbose
+                 convthre 1.0e-5
+                  threall 1.0e-11
+                   pqthre 1.0e-11
+                   threex 1.0e-11
+                   threcl 1.0e-11
+                   threoe 1.0e-11
+                   thregr 1.0e-11
+-----------------------------------
+Jobname: gly20
+Scratch data will be generated
+Scratch directory: ./scr.gly20
+| Random number seed: 2031282960
+
+XYZ coordinates gly20.xyz
+Molden File Output: ./scr.gly20/gly20.molden
+Using basis set: 6-31gs
+dmrgstart not found
+Spin multiplicity: 1
+DIIS will use up to 10 vectors.
+Condition number limit for the DIIS overlap matrix is            0
+WF convergence threshold: 1.00e-05
+Using DIIS algorithm to converge WF
+Maximum number of SCF iterations: 100
+Incremental Fock matrix formation
+X-matrix tolerance: 1.00e-04
+PRECISION: DOUBLE
+TeraChem will select linear algebra engine
+Density matrix purification turned off
+DFT Functional requested: hf
+Method: Hartree-Fock 
+Wavefunction: RESTRICTED
+Initial guess generated by maximum overlap
+
+********************************************
+**** SINGLE POINT GRADIENT CALCULATIONS ****
+********************************************
+SCF:   Initial guess is taken from previous step
+Starting TensorBox...
+| TeraChem will select linear algebra engine
+| Using cuSolver for matrix diagonalization
+
+| using 1 out of 1 CUDA devices
+|   Device 0:          NVIDIA H200, 143426MB, CC 9.0 -- CPU THREAD 0
+| -------------------------------------------------------------------
+| CPU Memory Available: 128972.62 MegaWords 
+| GPU Memory Available: 17672.31 MegaWords 
+| Maximum recommended basis set size: 51200 basis functions
+|  (limited by GPU memory)
+| -------------------------------------------------------------------
+| Initialize GPUBox with 128 MW of memory
+
+
+Basis set:       6-31gs
+Total atoms:     143
+Total charge:    0
+Total electrons: 610 (305-alpha, 305-beta)
+Number electrons modeled by ECPs: 0
+Total orbitals:  1339
+Total AO shells: 610 (367 S-shells; 162 P-shells; 81 D-shells; 0 F-shells; 0 G-shells)
+Spin multiplicity: 1
+Nuclear repulsion energy (QM atoms): 9260.936512094439 a.u.
+
+Guess time: 1 0.112
+Guess time: 1 0.062
+
+                      *** Start SCF Iterations ***
+
+ Iter     DIIS Error       Energy change    J    K   LA  DFT          Energy        Time(s)
+---------------------------------------------------------------------------------------------
+| Skip purify step
+|    1     0.3878645508   -4187.6197019359  0.14 0.39 0.11 0.00   -4187.6197019359     0.65  
+|    2     0.2013039975     -19.9229804156  0.11 0.33 0.22 0.00   -4207.5426823515     0.68  
+|    3     0.0742173118      -4.0457846441  0.11 0.33 0.23 0.00   -4211.5884669955     0.70  
+|    4     0.0205125334      -0.5556293708  0.11 0.32 0.28 0.00   -4212.1440963664     0.75  
+|    5     0.0039341047      -0.0617993567  0.11 0.30 0.27 0.00   -4212.2058957231     0.71  
+|    6     0.0030023455      -0.0079821886  0.10 0.30 0.30 0.00   -4212.2138779117     0.73  
+|    7     0.0006708333      -0.0011634761  0.10 0.30 0.32 0.00   -4212.2150413878     0.75  
+|    8     0.0002093238      -0.0001718191  0.09 0.29 0.31 0.00   -4212.2152132069     0.72  
+|    9     0.0001752627      -0.0000112362  0.08 0.27 0.33 0.00   -4212.2152244430     0.71  
+|   10     0.0000632989      -0.0000023104  0.08 0.26 0.35 0.00   -4212.2152267534     0.72  
+|   11     0.0000174697      -0.0000003552  0.08 0.25 0.32 0.00   -4212.2152271086     0.68  
+|   12     0.0000060475      +0.0000003595  0.08 0.23 0.48 0.00   -4212.2152267491     0.68  
+---------------------------------------------------------------------------------------------
+FINAL ENERGY: -4212.2152267491 a.u.
+HOMO-LUMO GAP: 13.524 eV
+CENTER OF MASS: {30.169226, 0.001358, 20.817213} ANGS
+DIPOLE MOMENT: {18.966615, 0.157419, 14.619248} (|D| = 23.947436) DEBYE
+
+Running Mulliken population analysis...
+
+ Gradient: K   elapsed time: 2.39 sec
+ Gradient: 1E  elapsed time: 0.02 sec
+ Gradient: NUC elapsed time: 0.00 sec
+ Gradient: CL  elapsed time: 0.14 sec
+ Gradient: XC  elapsed time: 0.00 sec
+
+Gradient units are Hartree/Bohr
+---------------------------------------------------
+        dE/dX            dE/dY            dE/dZ
+    0.0053440741     0.0020206031    -0.0072566997
+    0.0228324049     0.0000561796     0.0064554838
+    0.0196072403    -0.0002933349    -0.0493656475
+   -0.0028553974     0.0001040705     0.0380216740
+   -0.0083765553    -0.0068396734    -0.0037041462
+   -0.0086958073     0.0059714905    -0.0033262275
+   -0.0074726751    -0.0016782660     0.0231652038
+   -0.0109356061     0.0005662907    -0.0244037656
+   -0.0263739439     0.0000937173     0.0297582125
+    0.0006855353    -0.0010220531     0.0015899736
+   -0.0412582305     0.0001324292     0.0329320012
+    0.0348511018    -0.0000812776    -0.0118904073
+   -0.0033405808     0.0099785940    -0.0015630699
+   -0.0030077067    -0.0091082098    -0.0018732862
+    0.0102645875     0.0001125904    -0.0150193845
+    0.0222027547    -0.0000616742    -0.0323371576
+    0.0006852269     0.0010657293     0.0004834234
+    0.0163061253    -0.0001331745    -0.0513749906
+    0.0009415723     0.0000750440     0.0378319802
+   -0.0024845839    -0.0099954039    -0.0026797198
+   -0.0026672847     0.0091182153    -0.0022653097
+   -0.0103922505    -0.0000930323     0.0141532623
+   -0.0222425074     0.0000561348     0.0326189367
+    0.0006374490    -0.0010498255     0.0000905197
+   -0.0430094410     0.0001435774     0.0324977110
+    0.0360294564    -0.0000830255    -0.0117925265
+   -0.0033543573     0.0100052138    -0.0013751097
+   -0.0030277621    -0.0091363123    -0.0016790702
+    0.0096020252     0.0000940128    -0.0146446059
+    0.0233260268    -0.0000685758    -0.0317923636
+    0.0001928216     0.0010660777     0.0005807788
+    0.0157119071    -0.0001541727    -0.0516892830
+    0.0012890992     0.0000881656     0.0380129284
+   -0.0024225960    -0.0100113117    -0.0026891863
+   -0.0026006119     0.0091327949    -0.0022797079
+   -0.0104806894    -0.0000906684     0.0139660961
+   -0.0217891515     0.0000690808     0.0328949173
+    0.0005924734    -0.0010552831    -0.0000866025
+   -0.0432600149     0.0001639265     0.0323554980
+    0.0361912987    -0.0000939074    -0.0117334095
+   -0.0033526780     0.0100094257    -0.0013529726
+   -0.0030290664    -0.0091355067    -0.0016569744
+    0.0095168728     0.0000880601    -0.0146317906
+    0.0235110949    -0.0000816721    -0.0316685389
+    0.0001022693     0.0010697278     0.0005941437
+    0.0155728077    -0.0001687605    -0.0517495253
+    0.0013669488     0.0000971820     0.0380478791
+   -0.0024129061    -0.0100157333    -0.0026919982
+   -0.0025890581     0.0091328432    -0.0022853795
+   -0.0104971260    -0.0000857028     0.0139336779
+   -0.0216853690     0.0000820065     0.0329497890
+    0.0005826621    -0.0010548612    -0.0001307957
+   -0.0433249588     0.0001758992     0.0322962447
+    0.0362277078    -0.0001016691    -0.0117034577
+   -0.0033528470     0.0100120583    -0.0013488586
+   -0.0030314827    -0.0091378365    -0.0016466898
+    0.0094971940     0.0000822273    -0.0146298458
+    0.0235701182    -0.0000921872    -0.0316241109
+    0.0000679927     0.0010709874     0.0006010831
+    0.0155376251    -0.0001895256    -0.0517726102
+    0.0013937087     0.0001087627     0.0380548111
+   -0.0024109020    -0.0100183091    -0.0026905963
+   -0.0025841263     0.0091347070    -0.0022892676
+   -0.0105017933    -0.0000804887     0.0139208956
+   -0.0216712095     0.0000959644     0.0329719778
+    0.0005854011    -0.0010553770    -0.0001433753
+   -0.0433419221     0.0001919295     0.0322943987
+    0.0362411145    -0.0001110098    -0.0116979578
+   -0.0033524009     0.0100139709    -0.0013487951
+   -0.0030346834    -0.0091389828    -0.0016422656
+    0.0094950685     0.0000764350    -0.0146327129
+    0.0235838634    -0.0001033928    -0.0316343668
+    0.0000600443     0.0010601544     0.0006051969
+    0.0155393374    -0.0001999353    -0.0517810472
+    0.0013889417     0.0001164766     0.0380628219
+   -0.0024128919    -0.0100158561    -0.0026875824
+   -0.0025811237     0.0091389884    -0.0022933246
+   -0.0105056315    -0.0000748479     0.0139256631
+   -0.0216605144     0.0001081057     0.0329690839
+    0.0005894853    -0.0010657454    -0.0001412976
+   -0.0433503722     0.0002074542     0.0323146026
+    0.0362492376    -0.0001200419    -0.0117143698
+   -0.0033521377     0.0100179488    -0.0013505681
+   -0.0030340477    -0.0091338343    -0.0016423279
+    0.0094893669     0.0000710608    -0.0146276134
+    0.0235679090    -0.0001159173    -0.0316386865
+    0.0000720947     0.0010606713     0.0005985327
+    0.0155530050    -0.0002213666    -0.0517630884
+    0.0013787250     0.0001281762     0.0380557119
+   -0.0024163342    -0.0100140161    -0.0026827208
+   -0.0025798892     0.0091385363    -0.0022958818
+   -0.0105013439    -0.0000693060     0.0139244193
+   -0.0216740742     0.0001215810     0.0329534514
+    0.0005853060    -0.0010635873    -0.0001373948
+   -0.0433181697     0.0002289577     0.0323828077
+    0.0362420182    -0.0001317458    -0.0117580147
+   -0.0033478992     0.0100141608    -0.0013535088
+   -0.0030364913    -0.0091336083    -0.0016385053
+    0.0094932564     0.0000657733    -0.0146247003
+    0.0235341800    -0.0001297927    -0.0316716991
+    0.0000755657     0.0010620787     0.0006081703
+    0.0156506965    -0.0002350932    -0.0517419434
+    0.0013276753     0.0001367459     0.0380417692
+   -0.0024185180    -0.0100162125    -0.0026808445
+   -0.0025794119     0.0091383392    -0.0022971599
+   -0.0104915336    -0.0000638596     0.0139257862
+   -0.0217549235     0.0001336821     0.0329154227
+    0.0006027860    -0.0010654167    -0.0001018299
+   -0.0432232159     0.0002447368     0.0325795115
+    0.0362130183    -0.0001414455    -0.0118688710
+   -0.0033462606     0.0100105053    -0.0013622406
+   -0.0030366167    -0.0091274097    -0.0016433681
+    0.0095060972     0.0000600809    -0.0146152750
+    0.0234173777    -0.0001425507    -0.0318392599
+    0.0001244475     0.0010612933     0.0006318021
+    0.0160471224    -0.0002481672    -0.0516454745
+    0.0011236508     0.0001447019     0.0379979570
+   -0.0024324687    -0.0100128628    -0.0026767700
+   -0.0025899100     0.0091350583    -0.0022982806
+   -0.0104723623    -0.0000581533     0.0139665024
+   -0.0221144035     0.0001449473     0.0327475063
+    0.0006859916    -0.0010618902     0.0000022794
+   -0.0428152823     0.0002606455     0.0336561668
+    0.0361410571    -0.0001512200    -0.0125048743
+   -0.0033448136     0.0099915298    -0.0013831434
+   -0.0030395039    -0.0091105575    -0.0016585590
+    0.0095621177     0.0000540700    -0.0145757310
+    0.0228120465    -0.0001561952    -0.0326591740
+    0.0003611953     0.0010656940     0.0007335192
+    0.0186804630    -0.0002696664    -0.0505665202
+   -0.0003656350     0.0001561849     0.0376004869
+   -0.0025058651    -0.0099850678    -0.0026846038
+   -0.0026612248     0.0091046546    -0.0023099811
+   -0.0103167596    -0.0000515328     0.0141390187
+   -0.0225967115     0.0001505548     0.0311951207
+    0.0002317311    -0.0010384735     0.0068915251
+   -0.0401274737     0.0002475901     0.0372180593
+    0.0467023675    -0.0002835177    -0.0698226015
+   -0.0039951273     0.0093449484    -0.0017922887
+   -0.0036941894    -0.0084671688    -0.0020647887
+    0.0102464123     0.0000461259    -0.0142778072
+    0.0450235424    -0.0002005391    -0.0479253245
+   -0.0385104849     0.0002684606     0.0828772125
+---------------------------------------------------
+Net gradient: -7.944094e-10 -2.003000e-13 -3.085080e-10
+Net torque:    4.641494e-05 -1.005253e-06 -1.727765e-04
+
+Writing out molden info
+| Total processing time: 11.78 sec 
+
+| Job finished: Thu Aug 20 11:05:05 2026
+
